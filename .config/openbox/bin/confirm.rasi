@@ -1,0 +1,18 @@
+* {
+    background-color:    #212B30ff;
+    text-color:    #4DD0E1ff;
+    passwd:    #EC407Aff;
+    font:            	"DejaVu Sans Book 9";
+}
+
+#window {
+    width:      		180px;
+    y-offset: 			-8%;
+    padding:    		30px;
+}
+
+#entry {
+    expand: 			true;
+    width: 				150px;
+    text-color:			@passwd;
+}
