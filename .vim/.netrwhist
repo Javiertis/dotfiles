@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/javiertis/.config/Debauchee'
+let g:netrw_dirhist_5='/home/javiertis/.config/polybar'
+let g:netrw_dirhist_4='/home/javiertis/.config/neofetch'
+let g:netrw_dirhist_3='/home/javiertis/.config/termite'
+let g:netrw_dirhist_2='/home/javiertis/.config/spotify-tui'
+let g:netrw_dirhist_1='/home/javiertis/.config/termite'

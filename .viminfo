@@ -1,0 +1,1269 @@
+# Vim 8.2 generó este archivo "viminfo".
+# Puede editarlo, ¡sólo si tiene cuidado!
+
+# Viminfo version
+|1,4
+
+# Valor de 'encoding' cuando se escribió este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Último Patrón de búsqueda:
+~MSle0~/net
+
+# Última cadena de sustitución:
+$
+
+# Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:wq
+|2,0,1589826128,,"wq"
+:q!
+|2,0,1589822437,,"q!"
+:wq!
+|2,0,1589822433,,"wq!"
+:q
+|2,0,1589822121,,"q"
+:w
+|2,0,1589819824,,"w"
+:qa!
+|2,0,1589815978,,"qa!"
+:Lexplore close
+|2,0,1589813783,,"Lexplore close"
+:ql
+|2,0,1589813770,,"ql"
+:Lexplore
+|2,0,1589813694,,"Lexplore"
+:r! echo scripts/polybar-spotify/spotify_status.py
+|2,0,1589813540,,"r! echo scripts/polybar-spotify/spotify_status.py"
+:! echo scripts/polybar-spotify/spotify_status.py
+|2,0,1589813525,,"! echo scripts/polybar-spotify/spotify_status.py"
+:source .vimrc
+|2,0,1589809128,,"source .vimrc"
+:source
+|2,0,1589809114,,"source"
+:wqq
+|2,0,1589714244,,"wqq"
+:w!
+|2,0,1589655457,,"w!"
+:q1
+|2,0,1589625082,,"q1"
+:split
+|2,0,1589563019,,"split"
+:NetrwSettings
+|2,0,1589562993,,"NetrwSettings"
+:e mpd.rasi
+|2,0,1589562520,,"e mpd.rasi"
+::
+|2,0,1589553274,,":"
+:1
+|2,0,1589490060,,"1"
+
+# Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+?/net
+|2,1,1589824809,47,"net"
+? @$
+|2,1,1589821889,,"@$"
+? \<visualizer\>
+|2,1,1589819688,,"\\<visualizer\\>"
+? \<colors\>
+|2,1,1589819085,,"\\<colors\\>"
+?/spot
+|2,1,1589815082,47,"spot"
+?/spoti
+|2,1,1589814742,47,"spoti"
+?/colors
+|2,1,1589741815,47,"colors"
+?/color
+|2,1,1589741705,47,"color"
+?/colo
+|2,1,1589737455,47,"colo"
+? \<DISABLE_UNTRACKED_FILES_DIRTY\>
+|2,1,1589737207,,"\\<DISABLE_UNTRACKED_FILES_DIRTY\\>"
+? \<export\>
+|2,1,1589732074,,"\\<export\\>"
+? \<background\>
+|2,1,1589729337,,"\\<background\\>"
+?/opa
+|2,1,1589724473,47,"opa"
+?/+
+|2,1,1589724233,47,"+"
+? \<blur\>
+|2,1,1589714474,,"\\<blur\\>"
+?/upda
+|2,1,1589714287,47,"upda"
+?/right
+|2,1,1589714211,47,"right"
+?/updates
+|2,1,1589713829,47,"updates"
+?/updat
+|2,1,1589713783,47,"updat"
+?/name_y
+|2,1,1589713693,47,"name_y"
+?/git
+|2,1,1589713653,47,"git"
+?/pulse
+|2,1,1589713623,47,"pulse"
+?/center
+|2,1,1589713534,47,"center"
+?/mpd
+|2,1,1589713258,47,"mpd"
+?/mpla:q
+|2,1,1589713208,47,"mpla:q"
+? \<cache_path\>
+|2,1,1589650148,,"\\<cache_path\\>"
+?/date
+|2,1,1589646887,47,"date"
+?/player
+|2,1,1589646748,47,"player"
+?/XF86
+|2,1,1589641041,47,"XF86"
+?/volume
+|2,1,1589642773,47,"volume"
+?/vo
+|2,1,1589642701,47,"vo"
+?/volum
+|2,1,1589642335,47,"volum"
+? \<white\>
+|2,1,1589624470,,"\\<white\\>"
+?/W-
+|2,1,1589618779,47,"W-"
+?/"W-"
+|2,1,1589618764,47,"\"W-\""
+?/:
+|2,1,1589566598,47,":"
+?/list
+|2,1,1589565408,47,"list"
+?/lis
+|2,1,1589565346,47,"lis"
+?/cycle
+|2,1,1589565049,47,"cycle"
+?/cy
+|2,1,1589565044,47,"cy"
+? = $
+|2,1,1589562993,,"= $"
+?/bar
+|2,1,1589490684,47,"bar"
+?/module
+|2,1,1589490568,47,"module"
+?/font
+|2,1,1589490109,47,"font"
+?/bat
+|2,1,1589489961,47,"bat"
+?/play
+|2,1,1589488393,47,"play"
+?/networ
+|2,1,1589470979,47,"networ"
+
+# Historia de Expresión (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Historia de Debug Line (de lo más nuevo a lo más antiguo):
+
+# Registros:
+"0	CHAR	0
+	top
+|3,0,0,0,1,0,1589821891,"top"
+"1	LINE	0
+	#1D2633
+|3,0,1,1,1,0,1589818696,"#1D2633"
+"2	LINE	0
+	#42A5F5
+|3,0,2,1,1,0,1589818695,"#42A5F5"
+"3	LINE	0
+	#263640
+|3,0,3,1,1,0,1589818694,"#263640"
+"4	LINE	0
+	#263640
+|3,0,4,1,1,0,1589818657,"#263640"
+"5	LINE	0
+	#1D2633
+|3,0,5,1,1,0,1589818649,"#1D2633"
+"6	LINE	0
+	#42A5F5
+|3,0,6,1,1,0,1589818643,"#42A5F5"
+"7	LINE	0
+	#4040ff
+|3,0,7,1,1,0,1589818484,"#4040ff"
+"8	LINE	0
+	#03d2aa
+|3,0,8,1,1,0,1589818483,"#03d2aa"
+"9	LINE	0
+	#56fc2d
+|3,0,9,1,1,0,1589818482,"#56fc2d"
+"a@	CHAR	0
+	xj
+|3,2,10,0,1,0,1589733207,"xj"
+""-	CHAR	0
+	true
+|3,1,36,0,1,0,1589822528,"true"
+
+# Marcas en el archivo:
+'0  1  0  ~/.cfg/COMMIT_EDITMSG
+|4,48,1,0,1589826128,"~/.cfg/COMMIT_EDITMSG"
+'1  10  37  ~/.config/polybar/modules.ini
+|4,49,10,37,1589824998,"~/.config/polybar/modules.ini"
+'2  136  38  ~/.zshrc
+|4,50,136,38,1589824538,"~/.zshrc"
+'3  2  15  ~/.config/Debauchee/Barrier.conf
+|4,51,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
+'4  4  17  /etc/hosts
+|4,52,4,17,1589822437,"/etc/hosts"
+'5  1  0  ~/.config/Debauchee/Barrier.conf
+|4,53,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+'6  1  0  ~/.config/Debauchee/Barrier.conf
+|4,54,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+'7  8  14  ~/.config/Debauchee/Barrier.conf
+|4,55,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+'8  8  14  ~/.config/Debauchee/Barrier.conf
+|4,56,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+'9  8  14  ~/.config/Debauchee/Barrier.conf
+|4,57,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+
+# Lista de saltos (el más reciente va primero):
+-'  1  0  ~/.cfg/COMMIT_EDITMSG
+|4,39,1,0,1589826128,"~/.cfg/COMMIT_EDITMSG"
+-'  10  37  ~/.config/polybar/modules.ini
+|4,39,10,37,1589824998,"~/.config/polybar/modules.ini"
+-'  10  37  ~/.config/polybar/modules.ini
+|4,39,10,37,1589824998,"~/.config/polybar/modules.ini"
+-'  1  0  ~/.config/polybar/modules.ini
+|4,39,1,0,1589824809,"~/.config/polybar/modules.ini"
+-'  1  0  ~/.config/polybar/modules.ini
+|4,39,1,0,1589824809,"~/.config/polybar/modules.ini"
+-'  136  38  ~/.zshrc
+|4,39,136,38,1589824538,"~/.zshrc"
+-'  136  38  ~/.zshrc
+|4,39,136,38,1589824538,"~/.zshrc"
+-'  136  38  ~/.zshrc
+|4,39,136,38,1589824538,"~/.zshrc"
+-'  136  38  ~/.zshrc
+|4,39,136,38,1589824538,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1589824528,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1589824528,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1589824528,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1589824528,"~/.zshrc"
+-'  2  15  ~/.config/Debauchee/Barrier.conf
+|4,39,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
+-'  2  15  ~/.config/Debauchee/Barrier.conf
+|4,39,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
+-'  2  15  ~/.config/Debauchee/Barrier.conf
+|4,39,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
+-'  2  15  ~/.config/Debauchee/Barrier.conf
+|4,39,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
+-'  2  15  ~/.config/Debauchee/Barrier.conf
+|4,39,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
+-'  2  15  ~/.config/Debauchee/Barrier.conf
+|4,39,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
+-'  2  15  ~/.config/Debauchee/Barrier.conf
+|4,39,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
+-'  2  15  ~/.config/Debauchee/Barrier.conf
+|4,39,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822523,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822523,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822523,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822523,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822523,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822523,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822523,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822523,"~/.config/Debauchee/Barrier.conf"
+-'  4  17  /etc/hosts
+|4,39,4,17,1589822437,"/etc/hosts"
+-'  4  17  /etc/hosts
+|4,39,4,17,1589822437,"/etc/hosts"
+-'  4  17  /etc/hosts
+|4,39,4,17,1589822437,"/etc/hosts"
+-'  4  17  /etc/hosts
+|4,39,4,17,1589822437,"/etc/hosts"
+-'  4  17  /etc/hosts
+|4,39,4,17,1589822437,"/etc/hosts"
+-'  4  17  /etc/hosts
+|4,39,4,17,1589822437,"/etc/hosts"
+-'  4  17  /etc/hosts
+|4,39,4,17,1589822437,"/etc/hosts"
+-'  4  17  /etc/hosts
+|4,39,4,17,1589822437,"/etc/hosts"
+-'  4  17  /etc/hosts
+|4,39,4,17,1589822437,"/etc/hosts"
+-'  4  17  /etc/hosts
+|4,39,4,17,1589822437,"/etc/hosts"
+-'  4  17  /etc/hosts
+|4,39,4,17,1589822437,"/etc/hosts"
+-'  4  17  /etc/hosts
+|4,39,4,17,1589822437,"/etc/hosts"
+-'  4  17  /etc/hosts
+|4,39,4,17,1589822437,"/etc/hosts"
+-'  4  17  /etc/hosts
+|4,39,4,17,1589822437,"/etc/hosts"
+-'  4  17  /etc/hosts
+|4,39,4,17,1589822437,"/etc/hosts"
+-'  4  17  /etc/hosts
+|4,39,4,17,1589822437,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1589822368,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1589822368,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1589822368,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1589822368,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1589822368,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1589822368,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1589822368,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1589822368,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1589822368,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1589822368,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1589822368,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1589822368,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1589822368,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1589822368,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1589822368,"/etc/hosts"
+-'  1  0  /etc/hosts
+|4,39,1,0,1589822368,"/etc/hosts"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+-'  1  0  ~/.config/Debauchee/Barrier.conf
+|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+-'  8  14  ~/.config/Debauchee/Barrier.conf
+|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+
+# Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/.cfg/COMMIT_EDITMSG
+	*	1589826123	0
+	"	1	0
+
+> ~/.config/polybar/modules.ini
+	*	1589824997	0
+	"	10	37
+	^	10	38
+	.	10	38
+	+	799	19
+	+	419	13
+	+	420	12
+	+	138	13
+	+	415	6
+	+	412	7
+	+	415	12
+	+	704	0
+	+	705	0
+	+	10	38
+
+> ~/.zshrc
+	*	1589824537	0
+	"	136	38
+	^	136	39
+	.	136	38
+	+	136	1
+	+	137	25
+	+	148	0
+	+	135	0
+	+	133	19
+	+	135	12
+	+	11	22
+	+	17	0
+	+	68	0
+	+	112	17
+	+	11	19
+	+	5	0
+	+	11	0
+	+	86	0
+	+	85	1
+	+	5	0
+	+	11	0
+	+	64	1
+	+	5	0
+	+	86	0
+	+	88	0
+	+	86	0
+	+	88	0
+	+	5	0
+	+	11	16
+	+	5	19
+	+	5	31
+	+	49	0
+	+	50	1
+	+	51	0
+	+	53	0
+	+	54	0
+	+	55	0
+	+	63	0
+	+	64	0
+	+	2	0
+	+	5	31
+	+	50	0
+	+	49	0
+	+	64	0
+	+	5	0
+	+	11	0
+	+	5	0
+	+	24	0
+	+	27	0
+	+	45	0
+	+	68	0
+	+	101	0
+	+	136	38
+
+> ~/.config/Debauchee/Barrier.conf
+	*	1589822534	0
+	"	2	15
+	^	2	16
+	.	2	15
+	+	11	0
+	+	2	15
+
+> /etc/hosts
+	*	1589822433	0
+	"	4	17
+	^	4	18
+	.	4	17
+	+	4	17
+
+> ~/.config/vis/config
+	*	1589819911	0
+	"	30	29
+	^	30	30
+	.	30	30
+	+	84	20
+	+	30	30
+	+	75	29
+	+	84	20
+	+	12	0
+	+	9	24
+	+	33	30
+	+	37	32
+	+	39	37
+	+	37	32
+	+	33	30
+	+	37	34
+	+	69	32
+	+	70	32
+	+	69	32
+	+	70	32
+	+	16	28
+	+	81	0
+	+	84	19
+	+	30	31
+	+	47	40
+	+	50	35
+	+	51	39
+	+	47	35
+	+	50	35
+	+	51	34
+	+	50	31
+	+	51	37
+	+	47	36
+	+	37	32
+	+	33	30
+	+	30	30
+	+	81	0
+	+	30	30
+	+	33	30
+	+	30	30
+	+	39	35
+	+	84	14
+	+	2	16
+	+	39	37
+	+	70	32
+	+	47	35
+	+	43	36
+	+	47	37
+	+	70	33
+	+	69	32
+	+	43	36
+	+	70	33
+	+	30	30
+	+	69	32
+	+	70	32
+	+	2	15
+	+	47	0
+	+	33	30
+	+	37	33
+	+	38	0
+	+	30	30
+	o	39	34
+
+> ~/.config/vis/colors/colors
+	*	1589818878	0
+	"	1	0
+	^	1	5
+	.	1	5
+	+	1	7
+	+	1	0
+	+	3	0
+	+	1	0
+	+	3	0
+	+	1	0
+	+	3	0
+	+	1	0
+	+	4	6
+	+	1	5
+
+> ~/.config/vis/colors/rainbow
+	*	1589818340	0
+	"	1	0
+	.	1	0
+	+	15	0
+	+	1	0
+
+> .config/vis/config
+	*	1589815974	0
+	"	169	20
+	^	169	21
+	.	169	0
+	+	85	1
+	+	169	0
+
+> ~/.config/polybar/user_modules.ini
+	*	1589815164	0
+	"	298	78
+	^	298	79
+	.	298	79
+	+	220	16
+	+	221	0
+	+	220	31
+	+	222	33
+	+	223	0
+	+	225	0
+	+	223	0
+	+	292	0
+	+	299	25
+	+	298	14
+	+	299	0
+	+	298	54
+	+	299	0
+	+	298	79
+
+> ~/.config/polybar/config.ini
+	*	1589813896	0
+	"	162	29
+	^	162	30
+	.	162	29
+	+	163	44
+	+	135	24
+	+	162	29
+	+	161	43
+	+	163	80
+	+	185	0
+	+	183	19
+	+	163	71
+	+	161	42
+	+	163	72
+	+	162	18
+	+	161	34
+	+	163	31
+	+	161	51
+	+	161	35
+	+	24	0
+	+	162	29
+
+> ~/.config/dunst/dunstrc
+	*	1589812851	0
+	"	56	22
+
+> ~/.config/dconf/user
+	*	1589811921	0
+	"	1	0
+
+> ~/.dmrc
+	*	1589811897	0
+	"	1	0
+
+> ~/.mpd/mpdstate
+	*	1589811877	0
+	"	1	0
+
+> ~/.mpd/mpd.conf
+	*	1589811809	0
+	"	1	0
+
+> ~/.config/rofi/bin/mpd
+	*	1589811794	0
+	"	52	0
+
+> ~/.config/rofi/bin/runner
+	*	1589811732	0
+	"	3	27
+
+> ~/.config/rofi/config.rasi
+	*	1589811580	0
+	"	4	0
+	^	6	28
+	.	7	0
+	+	2	0
+	+	7	0
+
+> ~/.config/htop/htoprc
+	*	1589810316	0
+	"	1	0
+
+> ~/.config/openbox/bin/askpass_zenity.sh
+	*	1589810273	0
+	"	1	0
+	^	3	44
+	.	3	43
+	+	3	43
+
+> ~/.vimrc
+	*	1589809701	0
+	"	64	16
+	.	47	0
+	+	8	24
+	+	32	25
+	+	30	16
+	+	32	26
+	+	30	36
+	+	34	8
+	+	47	0
+
+> ~/.config/neofetch/config.conf
+	*	1589741846	0
+	"	514	27
+	^	514	28
+	.	514	27
+	+	324	0
+	+	759	16
+	+	748	17
+	+	759	27
+	+	696	36
+	+	786	15
+	+	748	17
+	+	748	18
+	+	759	23
+	+	696	28
+	+	759	15
+	+	514	27
+
+> ~/Imágenes/ascii/ascii
+	*	1589740188	0
+	"	7	19
+	^	7	20
+	.	1	0
+	+	1	37
+	+	1	26
+	+	19	3
+	+	1	0
+
+> /usr/bin/archey4
+	*	1589738676	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	2
+
+> /usr/bin/archey
+	*	1589738624	0
+	"	1	0
+
+> ~/Imágenes/ascii/arch.
+	*	1589738418	0
+	"	1	0
+
+> ~/.config/powerline-shell/theme.py
+	*	1589738224	0
+	"	19	2
+	^	15	15
+	.	15	14
+	+	44	15
+	+	12	30
+	+	5	19
+	+	6	19
+	+	7	23
+	+	6	21
+	+	5	19
+	+	13	15
+	+	12	31
+	+	13	16
+	+	14	15
+	+	15	15
+	+	29	22
+	+	31	21
+	+	32	22
+	+	5	0
+	+	6	19
+	+	5	19
+	+	6	0
+	+	15	13
+	+	6	0
+	+	24	20
+	+	15	14
+
+> ~/.config/powerline-shell/config.json
+	*	1589737507	0
+	"	1	0
+	.	5	0
+	+	6	0
+	+	9	0
+	+	4	0
+	+	8	11
+	+	8	4
+	+	8	3
+	+	7	8
+	+	14	2
+	+	9	18
+	+	13	17
+	+	12	19
+	+	17	11
+	+	14	3
+	+	17	0
+	+	18	0
+	+	17	46
+	+	11	0
+	+	2	3
+	+	3	7
+	+	4	7
+	+	5	7
+	+	6	7
+	+	7	7
+	+	8	8
+	+	9	7
+	+	9	15
+	+	9	14
+	+	4	15
+	+	5	16
+	+	14	4
+	+	16	3
+	+	15	15
+	+	15	0
+	+	14	3
+	+	5	0
+
+> ~/.config/termite/config
+	*	1589733390	0
+	"	49	23
+	^	50	0
+	.	49	23
+	+	20	17
+	+	9	20
+	+	9	31
+	+	82	0
+	+	29	20
+	+	49	0
+	+	48	1
+	+	48	0
+	+	49	23
+
+> ~/prueba/.git/COMMIT_EDITMSG
+	*	1589732186	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> ~/.oh-my-zsh/tools/install.sh
+	*	1589728440	0
+	"	289	0
+
+> ~/.oh-my-zsh/tools/require_tool.sh
+	*	1589728373	0
+	"	161	0
+
+> ~/.config/picom.conf
+	*	1589726568	0
+	"	5	0
+	^	164	1
+	.	164	0
+	+	106	20
+	+	105	22
+	+	106	19
+	+	105	21
+	+	119	27
+	+	115	0
+	+	119	0
+	+	123	0
+	+	119	0
+	+	117	0
+	+	123	0
+	+	115	0
+	+	117	0
+	+	119	1
+	+	115	0
+	+	104	0
+	+	105	0
+	+	106	0
+	+	107	0
+	+	108	0
+	+	115	0
+	+	108	0
+	+	164	0
+
+> ~/.oh-my-zsh/oh-my-zsh.sh
+	*	1589725964	0
+	"	108	0
+
+> ~/.zsh
+	*	1589724423	0
+	"	1	0
+
+> ~/.config/polybar/scripts/check-network
+	*	1589714189	0
+	"	12	0
+
+> ~/.config/polybar/scripts/lupdates
+	*	1589714135	0
+	"	4	15
+	^	4	16
+	.	4	15
+	+	3	28
+	+	4	15
+
+> ~/.config/polybar/scripts/updates.sh
+	*	1589713997	0
+	"	46	0
+
+> ~/.config/polybar/scripts/checkupdates
+	*	1589713975	0
+	"	117	0
+
+> ~/.config/polybar/bars.ini
+	*	1589713238	0
+	"	1	0
+
+> ~/.config/spotify-tui/client.yml
+	*	1589656886	0
+	"	1	0
+
+> ~/.config/spotify-tui/.spotify_token_cache.json
+	*	1589656864	0
+	"	1	0
+
+> /etc/lightdm/lightdm.conf
+	*	1589655474	0
+	"	117	35
+	^	117	38
+	.	117	37
+	+	117	37
+
+> ~/.config/spotifyd/spotifyd.conf
+	*	1589652947	0
+	"	74	0
+	^	79	22
+	.	71	0
+	+	79	20
+	+	3	24
+	+	6	11
+	+	14	26
+	+	6	1
+	+	21	1
+	+	36	13
+	+	44	1
+	+	48	17
+	+	59	1
+	+	71	1
+	+	74	1
+	+	79	21
+	+	71	0
+
+> ~/.config/openbox/rc.xml
+	*	1589645255	0
+	"	309	19
+	^	329	20
+	.	329	19
+	+	280	12
+	+	286	11
+	+	269	12
+	+	275	11
+	+	293	15
+	+	298	16
+	+	303	16
+	+	308	17
+	+	329	19
+
+> ~/.config/openbox/bin/volume
+	*	1589644257	0
+	"	1	0
+
+> ~/.config/openbox/bin/volume-down
+	*	1589644215	0
+	"	1	0
+
+> /usr/bin/polybar
+	*	1589643133	0
+	"	1	0
+
+> .config/polybar/config.ini
+	*	1589642830	0
+	"	1	0
+
+> ~/.config/openbox/menu.xml
+	*	1589627548	0
+	"	1	0
+	.	80	0
+	+	1	0
+	+	129	0
+	+	203	0
+	+	80	0
+
+> ~/.screenrc
+	*	1589626131	0
+	"	153	0
+
+> ~/.Xauthority
+	*	1589626033	0
+	"	1	0
+
+> ~/.yarnrc
+	*	1589625552	0
+	"	1	0
+
+> ~/.oh-my-zsh/tools/check_for_upgrade.sh
+	*	1589624682	0
+	"	1	0
+
+> ~/.oh-my-zsh/plugins/dash/dash.plugin.zsh
+	*	1589624650	0
+	"	1	0
+
+> ~/.oh-my-zsh/custom/themes/agnoster_alt.zsh-theme
+	*	1589624573	0
+	"	92	23
+	^	92	24
+	.	92	23
+	+	92	54
+	+	207	31
+	+	35	15
+	+	92	23
+
+> ~/.vim/.netrwhist
+	*	1589623523	0
+	"	1	0
+
+> ~/.config/i3lock-fancier/config.ini
+	*	1589622743	0
+	"	154	32
+	^	154	33
+	.	154	32
+	+	154	32
+
+> /usr/share/themes/minarch/openbox-3/close.xbm
+	*	1589616954	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /usr/share/themes/minarch/openbox-3/themerc
+	*	1589616912	0
+	"	61	0
+
+> ~/.config/openbox/bin/powermenu
+	*	1589568996	0
+	"	16	78
+	^	16	79
+	.	16	79
+	+	16	79
+
+> ~/.config/openbox/bin/apps_as_root.sh
+	*	1589568922	0
+	"	6	0
+
+> ~/.config/openbox/bin/askpass_rofi.sh
+	*	1589568854	0
+	"	6	26
+	^	6	27
+	.	6	26
+	+	6	26
+
+> ~/.config/openbox/bin/confirm.sh
+	*	1589568808	0
+	"	5	18
+	^	5	19
+	.	5	18
+	+	5	18
+
+> ~/.config/openbox/bin/confirm.rasi
+	*	1589568680	0
+	"	5	40
+	^	5	41
+	.	5	40
+	+	5	40
+
+> ~/.config/openbox/bin/askpass.rasi
+	*	1589568606	0
+	"	5	39
+	^	5	40
+	.	5	40
+	+	5	40
+
+> ~/.config/openbox/bin/askpass
+	*	1589568553	0
+	"	1	0
+
+> ~/.config/openbox/bin/styles.sh
+	*	1589568528	0
+	"	1	0
+
+> ~/.hushlogin
+	*	1589568042	0
+	"	1	0
+
+> ~/.config/networkmanager-dmenu/config.ini
+	*	1589566862	0
+	"	1	0
+
+> ~/.config/obmenu-generator/config.pl
+	*	1589566807	0
+	"	59	0
+
+> ~/.config/rofi/bin/launcher
+	*	1589566709	0
+	"	1	0
+
+> /etc/hosts.atm
+	*	1589566691	0
+	"	1	0
+
+> /etc/host.conf
+	*	1589566674	0
+	"	1	0
+
+> /etc/hostname
+	*	1589566657	0
+	"	1	0
+
+> ~/.config/rofi/bin/network
+	*	1589566624	0
+	"	1	0
+	^	46	54
+	.	46	54
+	+	22	31
+	+	46	54
+
+> ~/.config/rofi/themes/network.rasi
+	*	1589566527	0
+	"	6	23
+	^	6	24
+	.	6	24
+	+	1	0
+	+	4	0
+	+	3	41
+	+	67	42
+	+	3	59
+	+	82	36
+	+	4	40
+	+	5	25
+	+	6	24
+
+> bin/network
+	*	1589566263	0
+	"	1	0
+
+> ~/.config/rofi/themes/networkmenu.rasi
+	*	1589566135	0
+	"	4	21
+	^	4	22
+	.	3	39
+	+	1	0
+	+	2	59
+	+	66	42
+	+	2	60
+	+	81	36
+	+	98	36
+	+	81	36
+	+	82	39
+	+	2	59
+	+	3	39
+
+> themes/network.rasi
+	*	1589565975	0
+	"	1	0
+
+> ~/.config/rofi/bin/powermenu
+	*	1589565800	0
+	"	69	0
+
+> ~/.config/rofi/themes/runner.rasi
+	*	1589565420	0
+	"	93	36
+	^	55	24
+	.	93	36
+	+	1	0
+	+	2	60
+	+	5	30
+	+	53	0
+	+	54	40
+	+	55	23
+	+	93	36
+
+> ~/.config/rofi/themes/launcher.rasi
+	*	1589565365	0
+	"	88	36
+	.	88	36
+	+	3	0
+	+	2	24
+	+	4	0
+	+	3	23
+	+	5	1
+	+	4	10
+	+	5	3
+	+	10	39
+	+	9	62
+	+	12	29
+	+	11	25
+	+	50	23
+	+	97	36
+	+	88	36
+	+	76	0
+	+	88	36
+
+> ~/.config/rofi/themes/mpd.rasi
+	*	1589565132	0
+	"	82	36
+	^	2	60
+	.	82	36
+	+	1	0
+	+	2	59
+	+	81	36
+	+	82	36
+
+> ~/.config/rofi/themes/powermenu.rasi
+	*	1589564961	0
+	"	82	36
+	^	82	37
+	.	82	36
+	+	1	13
+	+	1	0
+	+	3	63
+	+	5	39
+	+	5	26
+	+	6	0
+	+	5	0
+	+	4	40
+	+	3	41
+	+	35	1
+	+	36	0
+	+	35	1
+	+	3	59
+	+	82	36
+
+> ~/.config/rofi/themes/screenshot.rasi
+	*	1589563918	0
+	"	105	0
+	^	2	60
+	.	81	36
+	+	2	0
+	+	1	0
+	+	2	59
+	+	32	28
+	+	68	36
+	+	81	36
+
+> ~/mpd.rasi
+	*	1589562520	0
+	"	1	0
+
+> ~/.config/rofi/themes/colors.rasi
+	*	1589553466	0
+	"	1	0
+
+> ~/.configls
+	*	1589552131	0
+	"	1	0
+
+> /etc/locale.conf
+	*	1589490313	0
+	"	1	0
+
+> ~/.viminfo
+	*	1589468634	0
+	"	5	0
+
+> ~/.config/termite/config_easy
+	*	1589468486	0
+	"	56	0
