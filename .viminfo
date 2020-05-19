@@ -11,22 +11,22 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~MSle0~/net
+~MSle0~/config
 
 # Última cadena de sustitución:
 $
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
 :wq
-|2,0,1589826128,,"wq"
+|2,0,1589889308,,"wq"
+:q
+|2,0,1589888609,,"q"
+:w
+|2,0,1589888608,,"w"
 :q!
 |2,0,1589822437,,"q!"
 :wq!
 |2,0,1589822433,,"wq!"
-:q
-|2,0,1589822121,,"q"
-:w
-|2,0,1589819824,,"w"
 :qa!
 |2,0,1589815978,,"qa!"
 :Lexplore close
@@ -61,6 +61,12 @@ $
 |2,0,1589490060,,"1"
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+?/config
+|2,1,1589889219,47,"config"
+?/preview_script
+|2,1,1589888230,47,"preview_script"
+?/a
+|2,1,1589887736,47,"a"
 ?/net
 |2,1,1589824809,47,"net"
 ? @$
@@ -167,264 +173,362 @@ $
 	top
 |3,0,0,0,1,0,1589821891,"top"
 "1	LINE	0
-	#1D2633
-|3,0,1,1,1,0,1589818696,"#1D2633"
+	alias ohmyzsh="thunar ~/.oh-my-zsh"
+|3,0,1,1,1,0,1589886701,"alias ohmyzsh=\"thunar ~/.oh-my-zsh\""
 "2	LINE	0
-	#42A5F5
-|3,0,2,1,1,0,1589818695,"#42A5F5"
+	plugins=(git)
+|3,0,2,1,1,0,1589886697,"plugins=(git)"
 "3	LINE	0
-	#263640
-|3,0,3,1,1,0,1589818694,"#263640"
+	source $ZSH/oh-my-zsh.sh
+|3,0,3,1,1,0,1589886695,"source $ZSH/oh-my-zsh.sh"
 "4	LINE	0
-	#263640
-|3,0,4,1,1,0,1589818657,"#263640"
+	export ZSH=/usr/share/oh-my-zsh
+|3,0,4,1,1,0,1589886685,"export ZSH=/usr/share/oh-my-zsh"
 "5	LINE	0
 	#1D2633
-|3,0,5,1,1,0,1589818649,"#1D2633"
+|3,0,5,1,1,0,1589818696,"#1D2633"
 "6	LINE	0
 	#42A5F5
-|3,0,6,1,1,0,1589818643,"#42A5F5"
+|3,0,6,1,1,0,1589818695,"#42A5F5"
 "7	LINE	0
-	#4040ff
-|3,0,7,1,1,0,1589818484,"#4040ff"
+	#263640
+|3,0,7,1,1,0,1589818694,"#263640"
 "8	LINE	0
-	#03d2aa
-|3,0,8,1,1,0,1589818483,"#03d2aa"
+	#263640
+|3,0,8,1,1,0,1589818657,"#263640"
 "9	LINE	0
-	#56fc2d
-|3,0,9,1,1,0,1589818482,"#56fc2d"
+	#1D2633
+|3,0,9,1,1,0,1589818649,"#1D2633"
 "a@	CHAR	0
 	xj
 |3,2,10,0,1,0,1589733207,"xj"
 ""-	CHAR	0
-	true
-|3,1,36,0,1,0,1589822528,"true"
+	termite
+|3,1,36,0,1,0,1589887856,"termite"
 
 # Marcas en el archivo:
-'0  1  0  ~/.cfg/COMMIT_EDITMSG
-|4,48,1,0,1589826128,"~/.cfg/COMMIT_EDITMSG"
-'1  10  37  ~/.config/polybar/modules.ini
-|4,49,10,37,1589824998,"~/.config/polybar/modules.ini"
-'2  136  38  ~/.zshrc
-|4,50,136,38,1589824538,"~/.zshrc"
-'3  2  15  ~/.config/Debauchee/Barrier.conf
-|4,51,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
-'4  4  17  /etc/hosts
-|4,52,4,17,1589822437,"/etc/hosts"
-'5  1  0  ~/.config/Debauchee/Barrier.conf
-|4,53,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
-'6  1  0  ~/.config/Debauchee/Barrier.conf
-|4,54,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
-'7  8  14  ~/.config/Debauchee/Barrier.conf
-|4,55,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
-'8  8  14  ~/.config/Debauchee/Barrier.conf
-|4,56,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
-'9  8  14  ~/.config/Debauchee/Barrier.conf
-|4,57,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+'0  140  66  ~/.zshrc
+|4,48,140,66,1589889308,"~/.zshrc"
+'1  109  25  ~/.zshrc
+|4,49,109,25,1589888829,"~/.zshrc"
+'2  109  25  ~/.zshrc
+|4,50,109,25,1589888829,"~/.zshrc"
+'3  39  0  ~/.cache/yay/pistol-git/PKGBUILD
+|4,51,39,0,1589888609,"~/.cache/yay/pistol-git/PKGBUILD"
+'4  7  24  ~/.config/ranger/rc.conf
+|4,52,7,24,1589888283,"~/.config/ranger/rc.conf"
+'5  180  0  ~/.config/ranger/commands_full.py
+|4,53,180,0,1589887964,"~/.config/ranger/commands_full.py"
+'6  84  0  ~/.config/ranger/scope.sh
+|4,54,84,0,1589887944,"~/.config/ranger/scope.sh"
+'7  76  0  ~/.config/ranger/rifle.conf
+|4,55,76,0,1589887928,"~/.config/ranger/rifle.conf"
+'8  15  0  ~/.config/ranger/rc.conf
+|4,56,15,0,1589887904,"~/.config/ranger/rc.conf"
+'9  14  0  ~/.config/ranger/rc.conf
+|4,57,14,0,1589887904,"~/.config/ranger/rc.conf"
 
 # Lista de saltos (el más reciente va primero):
--'  1  0  ~/.cfg/COMMIT_EDITMSG
-|4,39,1,0,1589826128,"~/.cfg/COMMIT_EDITMSG"
--'  10  37  ~/.config/polybar/modules.ini
-|4,39,10,37,1589824998,"~/.config/polybar/modules.ini"
--'  10  37  ~/.config/polybar/modules.ini
-|4,39,10,37,1589824998,"~/.config/polybar/modules.ini"
--'  1  0  ~/.config/polybar/modules.ini
-|4,39,1,0,1589824809,"~/.config/polybar/modules.ini"
--'  1  0  ~/.config/polybar/modules.ini
-|4,39,1,0,1589824809,"~/.config/polybar/modules.ini"
--'  136  38  ~/.zshrc
-|4,39,136,38,1589824538,"~/.zshrc"
--'  136  38  ~/.zshrc
-|4,39,136,38,1589824538,"~/.zshrc"
--'  136  38  ~/.zshrc
-|4,39,136,38,1589824538,"~/.zshrc"
--'  136  38  ~/.zshrc
-|4,39,136,38,1589824538,"~/.zshrc"
+-'  140  66  ~/.zshrc
+|4,39,140,66,1589889308,"~/.zshrc"
+-'  87  7  ~/.zshrc
+|4,39,87,7,1589889223,"~/.zshrc"
+-'  121  9  ~/.zshrc
+|4,39,121,9,1589889222,"~/.zshrc"
+-'  118  11  ~/.zshrc
+|4,39,118,11,1589889221,"~/.zshrc"
+-'  14  0  ~/.zshrc
+|4,39,14,0,1589889219,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1589824528,"~/.zshrc"
+|4,39,1,0,1589889212,"~/.zshrc"
+-'  109  25  ~/.zshrc
+|4,39,109,25,1589888829,"~/.zshrc"
+-'  109  25  ~/.zshrc
+|4,39,109,25,1589888829,"~/.zshrc"
 -'  1  0  ~/.zshrc
-|4,39,1,0,1589824528,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1589824528,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1589824528,"~/.zshrc"
--'  2  15  ~/.config/Debauchee/Barrier.conf
-|4,39,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
--'  2  15  ~/.config/Debauchee/Barrier.conf
-|4,39,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
--'  2  15  ~/.config/Debauchee/Barrier.conf
-|4,39,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
--'  2  15  ~/.config/Debauchee/Barrier.conf
-|4,39,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
--'  2  15  ~/.config/Debauchee/Barrier.conf
-|4,39,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
--'  2  15  ~/.config/Debauchee/Barrier.conf
-|4,39,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
--'  2  15  ~/.config/Debauchee/Barrier.conf
-|4,39,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
--'  2  15  ~/.config/Debauchee/Barrier.conf
-|4,39,2,15,1589822534,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822523,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822523,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822523,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822523,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822523,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822523,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822523,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822523,"~/.config/Debauchee/Barrier.conf"
--'  4  17  /etc/hosts
-|4,39,4,17,1589822437,"/etc/hosts"
--'  4  17  /etc/hosts
-|4,39,4,17,1589822437,"/etc/hosts"
--'  4  17  /etc/hosts
-|4,39,4,17,1589822437,"/etc/hosts"
--'  4  17  /etc/hosts
-|4,39,4,17,1589822437,"/etc/hosts"
--'  4  17  /etc/hosts
-|4,39,4,17,1589822437,"/etc/hosts"
--'  4  17  /etc/hosts
-|4,39,4,17,1589822437,"/etc/hosts"
--'  4  17  /etc/hosts
-|4,39,4,17,1589822437,"/etc/hosts"
--'  4  17  /etc/hosts
-|4,39,4,17,1589822437,"/etc/hosts"
--'  4  17  /etc/hosts
-|4,39,4,17,1589822437,"/etc/hosts"
--'  4  17  /etc/hosts
-|4,39,4,17,1589822437,"/etc/hosts"
--'  4  17  /etc/hosts
-|4,39,4,17,1589822437,"/etc/hosts"
--'  4  17  /etc/hosts
-|4,39,4,17,1589822437,"/etc/hosts"
--'  4  17  /etc/hosts
-|4,39,4,17,1589822437,"/etc/hosts"
--'  4  17  /etc/hosts
-|4,39,4,17,1589822437,"/etc/hosts"
--'  4  17  /etc/hosts
-|4,39,4,17,1589822437,"/etc/hosts"
--'  4  17  /etc/hosts
-|4,39,4,17,1589822437,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1589822368,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1589822368,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1589822368,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1589822368,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1589822368,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1589822368,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1589822368,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1589822368,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1589822368,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1589822368,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1589822368,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1589822368,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1589822368,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1589822368,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1589822368,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1589822368,"/etc/hosts"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
--'  1  0  ~/.config/Debauchee/Barrier.conf
-|4,39,1,0,1589822121,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
--'  8  14  ~/.config/Debauchee/Barrier.conf
-|4,39,8,14,1589821939,"~/.config/Debauchee/Barrier.conf"
+|4,39,1,0,1589888775,"~/.zshrc"
+-'  39  0  ~/.cache/yay/pistol-git/PKGBUILD
+|4,39,39,0,1589888609,"~/.cache/yay/pistol-git/PKGBUILD"
+-'  39  0  ~/.cache/yay/pistol-git/PKGBUILD
+|4,39,39,0,1589888609,"~/.cache/yay/pistol-git/PKGBUILD"
+-'  39  0  ~/.cache/yay/pistol-git/PKGBUILD
+|4,39,39,0,1589888609,"~/.cache/yay/pistol-git/PKGBUILD"
+-'  39  0  ~/.cache/yay/pistol-git/PKGBUILD
+|4,39,39,0,1589888609,"~/.cache/yay/pistol-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/pistol-git/PKGBUILD
+|4,39,1,0,1589888543,"~/.cache/yay/pistol-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/pistol-git/PKGBUILD
+|4,39,1,0,1589888543,"~/.cache/yay/pistol-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/pistol-git/PKGBUILD
+|4,39,1,0,1589888543,"~/.cache/yay/pistol-git/PKGBUILD"
+-'  1  0  ~/.cache/yay/pistol-git/PKGBUILD
+|4,39,1,0,1589888543,"~/.cache/yay/pistol-git/PKGBUILD"
+-'  7  24  ~/.config/ranger/rc.conf
+|4,39,7,24,1589888283,"~/.config/ranger/rc.conf"
+-'  7  24  ~/.config/ranger/rc.conf
+|4,39,7,24,1589888283,"~/.config/ranger/rc.conf"
+-'  7  24  ~/.config/ranger/rc.conf
+|4,39,7,24,1589888283,"~/.config/ranger/rc.conf"
+-'  7  24  ~/.config/ranger/rc.conf
+|4,39,7,24,1589888283,"~/.config/ranger/rc.conf"
+-'  7  24  ~/.config/ranger/rc.conf
+|4,39,7,24,1589888283,"~/.config/ranger/rc.conf"
+-'  7  24  ~/.config/ranger/rc.conf
+|4,39,7,24,1589888283,"~/.config/ranger/rc.conf"
+-'  7  24  ~/.config/ranger/rc.conf
+|4,39,7,24,1589888283,"~/.config/ranger/rc.conf"
+-'  7  24  ~/.config/ranger/rc.conf
+|4,39,7,24,1589888283,"~/.config/ranger/rc.conf"
+-'  259  18  ~/.config/ranger/rc.conf
+|4,39,259,18,1589888240,"~/.config/ranger/rc.conf"
+-'  259  18  ~/.config/ranger/rc.conf
+|4,39,259,18,1589888240,"~/.config/ranger/rc.conf"
+-'  259  18  ~/.config/ranger/rc.conf
+|4,39,259,18,1589888240,"~/.config/ranger/rc.conf"
+-'  259  18  ~/.config/ranger/rc.conf
+|4,39,259,18,1589888240,"~/.config/ranger/rc.conf"
+-'  259  18  ~/.config/ranger/rc.conf
+|4,39,259,18,1589888240,"~/.config/ranger/rc.conf"
+-'  259  18  ~/.config/ranger/rc.conf
+|4,39,259,18,1589888240,"~/.config/ranger/rc.conf"
+-'  259  18  ~/.config/ranger/rc.conf
+|4,39,259,18,1589888240,"~/.config/ranger/rc.conf"
+-'  259  18  ~/.config/ranger/rc.conf
+|4,39,259,18,1589888240,"~/.config/ranger/rc.conf"
+-'  6  8  ~/.config/ranger/rc.conf
+|4,39,6,8,1589888233,"~/.config/ranger/rc.conf"
+-'  6  8  ~/.config/ranger/rc.conf
+|4,39,6,8,1589888233,"~/.config/ranger/rc.conf"
+-'  6  8  ~/.config/ranger/rc.conf
+|4,39,6,8,1589888233,"~/.config/ranger/rc.conf"
+-'  6  8  ~/.config/ranger/rc.conf
+|4,39,6,8,1589888233,"~/.config/ranger/rc.conf"
+-'  6  8  ~/.config/ranger/rc.conf
+|4,39,6,8,1589888233,"~/.config/ranger/rc.conf"
+-'  6  8  ~/.config/ranger/rc.conf
+|4,39,6,8,1589888233,"~/.config/ranger/rc.conf"
+-'  6  8  ~/.config/ranger/rc.conf
+|4,39,6,8,1589888233,"~/.config/ranger/rc.conf"
+-'  6  8  ~/.config/ranger/rc.conf
+|4,39,6,8,1589888233,"~/.config/ranger/rc.conf"
+-'  183  0  ~/.config/ranger/rc.conf
+|4,39,183,0,1589888157,"~/.config/ranger/rc.conf"
+-'  183  0  ~/.config/ranger/rc.conf
+|4,39,183,0,1589888157,"~/.config/ranger/rc.conf"
+-'  183  0  ~/.config/ranger/rc.conf
+|4,39,183,0,1589888157,"~/.config/ranger/rc.conf"
+-'  183  0  ~/.config/ranger/rc.conf
+|4,39,183,0,1589888157,"~/.config/ranger/rc.conf"
+-'  183  0  ~/.config/ranger/rc.conf
+|4,39,183,0,1589888157,"~/.config/ranger/rc.conf"
+-'  183  0  ~/.config/ranger/rc.conf
+|4,39,183,0,1589888157,"~/.config/ranger/rc.conf"
+-'  183  0  ~/.config/ranger/rc.conf
+|4,39,183,0,1589888157,"~/.config/ranger/rc.conf"
+-'  183  0  ~/.config/ranger/rc.conf
+|4,39,183,0,1589888157,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1589888111,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1589888111,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1589888111,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1589888111,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1589888111,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1589888111,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1589888111,"~/.config/ranger/rc.conf"
+-'  1  0  ~/.config/ranger/rc.conf
+|4,39,1,0,1589888111,"~/.config/ranger/rc.conf"
+-'  180  0  ~/.config/ranger/commands_full.py
+|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
+-'  180  0  ~/.config/ranger/commands_full.py
+|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
+-'  180  0  ~/.config/ranger/commands_full.py
+|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
+-'  180  0  ~/.config/ranger/commands_full.py
+|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
+-'  180  0  ~/.config/ranger/commands_full.py
+|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
+-'  180  0  ~/.config/ranger/commands_full.py
+|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
+-'  180  0  ~/.config/ranger/commands_full.py
+|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
+-'  180  0  ~/.config/ranger/commands_full.py
+|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
+-'  180  0  ~/.config/ranger/commands_full.py
+|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
+-'  180  0  ~/.config/ranger/commands_full.py
+|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
+-'  180  0  ~/.config/ranger/commands_full.py
+|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
+-'  180  0  ~/.config/ranger/commands_full.py
+|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
+-'  180  0  ~/.config/ranger/commands_full.py
+|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
+-'  180  0  ~/.config/ranger/commands_full.py
+|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
+-'  180  0  ~/.config/ranger/commands_full.py
+|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
+-'  180  0  ~/.config/ranger/commands_full.py
+|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
+-'  1  0  ~/.config/ranger/commands_full.py
+|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
+-'  1  0  ~/.config/ranger/commands_full.py
+|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
+-'  1  0  ~/.config/ranger/commands_full.py
+|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
+-'  1  0  ~/.config/ranger/commands_full.py
+|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
+-'  1  0  ~/.config/ranger/commands_full.py
+|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
+-'  1  0  ~/.config/ranger/commands_full.py
+|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
+-'  1  0  ~/.config/ranger/commands_full.py
+|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
+-'  1  0  ~/.config/ranger/commands_full.py
+|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
+-'  1  0  ~/.config/ranger/commands_full.py
+|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
+-'  1  0  ~/.config/ranger/commands_full.py
+|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
+-'  1  0  ~/.config/ranger/commands_full.py
+|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
+-'  1  0  ~/.config/ranger/commands_full.py
+|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
+-'  1  0  ~/.config/ranger/commands_full.py
+|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
+-'  1  0  ~/.config/ranger/commands_full.py
+|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
+-'  1  0  ~/.config/ranger/commands_full.py
+|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
+-'  1  0  ~/.config/ranger/commands_full.py
+|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
+-'  84  0  ~/.config/ranger/scope.sh
+|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
+-'  84  0  ~/.config/ranger/scope.sh
+|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
+-'  84  0  ~/.config/ranger/scope.sh
+|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
+-'  84  0  ~/.config/ranger/scope.sh
+|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
+-'  84  0  ~/.config/ranger/scope.sh
+|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
+-'  84  0  ~/.config/ranger/scope.sh
+|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
+-'  84  0  ~/.config/ranger/scope.sh
+|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
+-'  84  0  ~/.config/ranger/scope.sh
+|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
+-'  84  0  ~/.config/ranger/scope.sh
+|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
+-'  84  0  ~/.config/ranger/scope.sh
+|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
+-'  84  0  ~/.config/ranger/scope.sh
+|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/.zshrc
+	*	1589889302	0
+	"	140	66
+	^	140	67
+	.	140	66
+	+	142	1
+	+	143	25
+	+	154	0
+	+	139	0
+	+	137	19
+	+	139	12
+	+	10	22
+	+	16	0
+	+	67	0
+	+	117	17
+	+	10	19
+	+	5	0
+	+	10	0
+	+	85	0
+	+	84	1
+	+	5	0
+	+	10	0
+	+	63	1
+	+	5	0
+	+	85	0
+	+	86	0
+	+	85	0
+	+	86	0
+	+	5	0
+	+	10	16
+	+	5	19
+	+	5	31
+	+	48	0
+	+	49	1
+	+	50	0
+	+	52	0
+	+	53	0
+	+	54	0
+	+	62	0
+	+	63	0
+	+	2	0
+	+	5	31
+	+	49	0
+	+	48	0
+	+	63	0
+	+	5	0
+	+	10	0
+	+	5	0
+	+	23	0
+	+	26	0
+	+	44	0
+	+	67	0
+	+	98	0
+	+	142	38
+	+	5	0
+	+	86	0
+	+	85	0
+	+	122	0
+	+	103	92
+	+	103	0
+	+	104	51
+	+	105	0
+	+	110	0
+	+	109	25
+	+	141	0
+	+	142	0
+	+	140	66
+
+> ~/.cache/yay/pistol-git/PKGBUILD
+	*	1589888608	0
+	"	39	0
+
+> ~/.config/ranger/rc.conf
+	*	1589888282	0
+	"	7	24
+	^	7	25
+	.	7	24
+	+	2	18
+	+	13	22
+	+	14	30
+	+	7	24
+
+> ~/.config/ranger/commands_full.py
+	*	1589887963	0
+	"	180	0
+
+> ~/.config/ranger/scope.sh
+	*	1589887942	0
+	"	84	0
+
+> ~/.config/ranger/rifle.conf
+	*	1589887925	0
+	"	76	0
+
+> ~/.config/ranger/colorschemes/tofu.py
+	*	1589887600	0
+	"	5	26
 
 > ~/.cfg/COMMIT_EDITMSG
 	*	1589826123	0
@@ -445,61 +549,6 @@ $
 	+	704	0
 	+	705	0
 	+	10	38
-
-> ~/.zshrc
-	*	1589824537	0
-	"	136	38
-	^	136	39
-	.	136	38
-	+	136	1
-	+	137	25
-	+	148	0
-	+	135	0
-	+	133	19
-	+	135	12
-	+	11	22
-	+	17	0
-	+	68	0
-	+	112	17
-	+	11	19
-	+	5	0
-	+	11	0
-	+	86	0
-	+	85	1
-	+	5	0
-	+	11	0
-	+	64	1
-	+	5	0
-	+	86	0
-	+	88	0
-	+	86	0
-	+	88	0
-	+	5	0
-	+	11	16
-	+	5	19
-	+	5	31
-	+	49	0
-	+	50	1
-	+	51	0
-	+	53	0
-	+	54	0
-	+	55	0
-	+	63	0
-	+	64	0
-	+	2	0
-	+	5	31
-	+	50	0
-	+	49	0
-	+	64	0
-	+	5	0
-	+	11	0
-	+	5	0
-	+	24	0
-	+	27	0
-	+	45	0
-	+	68	0
-	+	101	0
-	+	136	38
 
 > ~/.config/Debauchee/Barrier.conf
 	*	1589822534	0

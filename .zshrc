@@ -2,7 +2,6 @@
  export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/usr/share/oh-my-zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -83,9 +82,7 @@ fi
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
 
 # User configuration
 neofetch
@@ -103,6 +100,14 @@ neofetch
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
+source /usr/share/autojump/autojump.zsh 2>/dev/null
+autoload -U compinit
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+compinit
+_comp_options+=(globdots) 
+
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -114,7 +119,6 @@ neofetch
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # omz
 alias zshconfig="vim ~/.zshrc"
-alias ohmyzsh="thunar ~/.oh-my-zsh"
 alias vi='vim'
 # updates
 alias sysupdate='yay -Syu'
@@ -133,4 +137,6 @@ alias gi='git init'
 alias ga='git add'
 alias gc='git commit -m'
 alias gp='git push origin master'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
 alias upKeymap='setxkbmap es nodeadkeys'
