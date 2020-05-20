@@ -33,7 +33,7 @@ o W-S-Left        	SendToDesktopLeft
 o W-S-Right       	SendToDesktopRight
 x XF86AudioRaiseVolume	~/.config/openbox/bin/volume-up
 x XF86AudioLowerVolume	~/.config/openbox/bin/volume-down
-x XF86AudioMute   	amixer -t
+x XF86AudioMute   	amixer sset Master toggle
 x XF86AudioStop   	playerctl stop
 x XF86AudioPlay   	playerctl play-pause
 x XF86AudioPrev   	playerctl previous
@@ -63,11 +63,11 @@ o C-S-Escape      	Exit
 o C-S-BackSpace   	Restart
 o C-S-Return      	Reconfigure
 x W-Return        	termite
-x W-q             	xkill
+o W-q             	Close
 o A-F4            	Close
 o A-F5            	Iconify
 o A-F6            	ToggleMaximize
-o A-F7            	ToggleDecorations
+o W-b             	ToggleDecorations
 o W-d             	ToggleShowDesktop
 o A-r             	Resize
 o A-m             	Move

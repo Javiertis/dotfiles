@@ -2,6 +2,8 @@
 monitor = 0
 follow = mouse
 geometry = "250x50-10+38"
+transparency = 5
+corner_radius = 25
 indicate_hidden = yes
 shrink = no
 separator_height = 4
@@ -11,7 +13,7 @@ horizontal_padding = 20
 frame_width = 0
 sort = no
 idle_threshold = 120
-font = scientifica 8
+font = DejaVu Sans Mono Book 8
 line_height = 4
 markup = full
 format = %s\n%b

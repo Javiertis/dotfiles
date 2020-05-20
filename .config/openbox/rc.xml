@@ -9,7 +9,7 @@
     <focusLast>yes</focusLast>
     <underMouse>no</underMouse>
     <focusDelay>200</focusDelay>
-    <raiseOnFocus>no</raiseOnFocus>
+    <raiseOnFocus>yes</raiseOnFocus>
   </focus>
   <placement>
     <policy>Smart</policy>
@@ -18,7 +18,7 @@
     <primaryMonitor>Mouse</primaryMonitor>
   </placement>
   <theme>
-    <name>minarch</name>
+    <name>minarch_mod</name>
     <titleLayout>NLMC</titleLayout>
     <keepBorder>no</keepBorder>
     <animateIconify>yes</animateIconify>
@@ -87,7 +87,7 @@
     <right>9</right>
   </margins>
   <dock>
-    <position>Bottom</position>
+    <position>BottomRight</position>
     <floatingX>0</floatingX>
     <floatingY>0</floatingY>
     <noStrut>no</noStrut>
@@ -314,6 +314,11 @@
         <command>amixer sset Master toggle</command>
       </action>
     </keybind>
+    <keybind key="Launch3">
+      <action name="Execute">
+        <command>termite -e alsamixer</command>
+      </action>
+    </keybind>
     <keybind key="XF86AudioStop">
       <action name="Execute">
         <command>playerctl stop</command>
@@ -421,7 +426,7 @@
     </keybind>
     <keybind key="W-A-l">
       <action name="Execute">
-        <command>i3lock</command>
+        <command>betterlockscreen -l dimxblur</command>
       </action>
     </keybind>
     <keybind key="C-A-v">
@@ -465,7 +470,7 @@
     <keybind key="A-F6">
       <action name="ToggleMaximize"/>
     </keybind>
-    <keybind key="A-F7">
+    <keybind key="W-b">
       <action name="ToggleDecorations"/>
     </keybind>
     <keybind key="W-d">

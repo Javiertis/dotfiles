@@ -11,20 +11,30 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~MSle0~/config
+~MSle0~/ps1
 
 # Última cadena de sustitución:
 $
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
-:wq
-|2,0,1589889308,,"wq"
 :q
-|2,0,1589888609,,"q"
+|2,0,1589911738,,"q"
+:wq
+|2,0,1589907853,,"wq"
 :w
-|2,0,1589888608,,"w"
+|2,0,1589906861,,"w"
+:Explore
+|2,0,1589904863,,"Explore"
+:wwq
+|2,0,1589904797,,"wwq"
+:RmVimball
+|2,0,1589900936,,"RmVimball"
+:source .vimrc
+|2,0,1589900926,,"source .vimrc"
+:source
+|2,0,1589900914,,"source"
 :q!
-|2,0,1589822437,,"q!"
+|2,0,1589901619,,"q!"
 :wq!
 |2,0,1589822433,,"wq!"
 :qa!
@@ -39,10 +49,6 @@ $
 |2,0,1589813540,,"r! echo scripts/polybar-spotify/spotify_status.py"
 :! echo scripts/polybar-spotify/spotify_status.py
 |2,0,1589813525,,"! echo scripts/polybar-spotify/spotify_status.py"
-:source .vimrc
-|2,0,1589809128,,"source .vimrc"
-:source
-|2,0,1589809114,,"source"
 :wqq
 |2,0,1589714244,,"wqq"
 :w!
@@ -61,6 +67,18 @@ $
 |2,0,1589490060,,"1"
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+?/tran
+|2,1,1589907248,47,"tran"
+?/ps1
+|2,1,1589905187,47,"ps1"
+? @$
+|2,1,1589904864,,"@$"
+?/menu
+|2,1,1589900680,47,"menu"
+? \<566067\>
+|2,1,1589900459,,"\\<566067\\>"
+?/theme
+|2,1,1589890848,47,"theme"
 ?/config
 |2,1,1589889219,47,"config"
 ?/preview_script
@@ -69,8 +87,6 @@ $
 |2,1,1589887736,47,"a"
 ?/net
 |2,1,1589824809,47,"net"
-? @$
-|2,1,1589821889,,"@$"
 ? \<visualizer\>
 |2,1,1589819688,,"\\<visualizer\\>"
 ? \<colors\>
@@ -151,16 +167,6 @@ $
 |2,1,1589562993,,"= $"
 ?/bar
 |2,1,1589490684,47,"bar"
-?/module
-|2,1,1589490568,47,"module"
-?/font
-|2,1,1589490109,47,"font"
-?/bat
-|2,1,1589489961,47,"bat"
-?/play
-|2,1,1589488393,47,"play"
-?/networ
-|2,1,1589470979,47,"networ"
 
 # Historia de Expresión (de lo más nuevo a lo más antiguo):
 
@@ -169,274 +175,407 @@ $
 # Historia de Debug Line (de lo más nuevo a lo más antiguo):
 
 # Registros:
-"0	CHAR	0
-	top
-|3,0,0,0,1,0,1589821891,"top"
+"0	LINE	0
+	set nocompatible
+|3,0,0,1,1,0,1589904864,"set nocompatible"
 "1	LINE	0
-	alias ohmyzsh="thunar ~/.oh-my-zsh"
-|3,0,1,1,1,0,1589886701,"alias ohmyzsh=\"thunar ~/.oh-my-zsh\""
+	set nocompatible
+|3,0,1,1,1,0,1589902434,"set nocompatible"
 "2	LINE	0
-	plugins=(git)
-|3,0,2,1,1,0,1589886697,"plugins=(git)"
+	set t_AB=^[[48;5;%dm
+|3,0,2,1,1,0,1589902426,"set t_AB=^[[48;5;%dm"
 "3	LINE	0
-	source $ZSH/oh-my-zsh.sh
-|3,0,3,1,1,0,1589886695,"source $ZSH/oh-my-zsh.sh"
+	set t_AF=^[[38;5;%dm
+|3,0,3,1,1,0,1589902424,"set t_AF=^[[38;5;%dm"
 "4	LINE	0
-	export ZSH=/usr/share/oh-my-zsh
-|3,0,4,1,1,0,1589886685,"export ZSH=/usr/share/oh-my-zsh"
+	fiif [ -e /usr/share/terminfo/x/xterm-256color ]; then
+	        export TERM='xterm-256color'
+	else
+	        export TERM='xterm-color'
+	fi
+|3,0,4,1,5,0,1589902321,"fiif [ -e /usr/share/terminfo/x/xterm-256color ]; then","        export TERM='xterm-256color'","else","        export TERM='xterm-color'","fi"
 "5	LINE	0
-	#1D2633
-|3,0,5,1,1,0,1589818696,"#1D2633"
+	# Copyright (C) 2020 Javier Tejedor <javi.teje99@gmail.com>
+|3,0,5,1,1,0,1589900118,"# Copyright (C) 2020 Javier Tejedor <javi.teje99@gmail.com>"
 "6	LINE	0
-	#42A5F5
-|3,0,6,1,1,0,1589818695,"#42A5F5"
+	alias ohmyzsh="thunar ~/.oh-my-zsh"
+|3,0,6,1,1,0,1589886701,"alias ohmyzsh=\"thunar ~/.oh-my-zsh\""
 "7	LINE	0
-	#263640
-|3,0,7,1,1,0,1589818694,"#263640"
+	plugins=(git)
+|3,0,7,1,1,0,1589886697,"plugins=(git)"
 "8	LINE	0
-	#263640
-|3,0,8,1,1,0,1589818657,"#263640"
+	source $ZSH/oh-my-zsh.sh
+|3,0,8,1,1,0,1589886695,"source $ZSH/oh-my-zsh.sh"
 "9	LINE	0
-	#1D2633
-|3,0,9,1,1,0,1589818649,"#1D2633"
+	export ZSH=/usr/share/oh-my-zsh
+|3,0,9,1,1,0,1589886685,"export ZSH=/usr/share/oh-my-zsh"
 "a@	CHAR	0
 	xj
-|3,2,10,0,1,0,1589733207,"xj"
+|3,2,10,0,1,0,1589900936,"xj"
 ""-	CHAR	0
-	termite
-|3,1,36,0,1,0,1589887856,"termite"
+	scientifica
+|3,1,36,0,1,0,1589906794,"scientifica"
 
 # Marcas en el archivo:
-'0  140  66  ~/.zshrc
-|4,48,140,66,1589889308,"~/.zshrc"
-'1  109  25  ~/.zshrc
-|4,49,109,25,1589888829,"~/.zshrc"
-'2  109  25  ~/.zshrc
-|4,50,109,25,1589888829,"~/.zshrc"
-'3  39  0  ~/.cache/yay/pistol-git/PKGBUILD
-|4,51,39,0,1589888609,"~/.cache/yay/pistol-git/PKGBUILD"
-'4  7  24  ~/.config/ranger/rc.conf
-|4,52,7,24,1589888283,"~/.config/ranger/rc.conf"
-'5  180  0  ~/.config/ranger/commands_full.py
-|4,53,180,0,1589887964,"~/.config/ranger/commands_full.py"
-'6  84  0  ~/.config/ranger/scope.sh
-|4,54,84,0,1589887944,"~/.config/ranger/scope.sh"
-'7  76  0  ~/.config/ranger/rifle.conf
-|4,55,76,0,1589887928,"~/.config/ranger/rifle.conf"
-'8  15  0  ~/.config/ranger/rc.conf
-|4,56,15,0,1589887904,"~/.config/ranger/rc.conf"
-'9  14  0  ~/.config/ranger/rc.conf
-|4,57,14,0,1589887904,"~/.config/ranger/rc.conf"
+'0  114  0  ~/.config/openbox/rc.xml
+|4,48,114,0,1589971118,"~/.config/openbox/rc.xml"
+'1  1  0  ~/.config/betterlockscreenrc
+|4,49,1,0,1589911738,"~/.config/betterlockscreenrc"
+'2  34  0  /etc/i3/config
+|4,50,34,0,1589911041,"/etc/i3/config"
+'3  1  0  /usr/bin/i3lock
+|4,51,1,0,1589910962,"/usr/bin/i3lock"
+'4  1  0  ~/.config/i3lock-fancier/config.ini
+|4,52,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+'5  1  0  ~/.config/i3/config
+|4,53,1,0,1589910428,"~/.config/i3/config"
+'6  70  0  /etc/systemd/system.conf
+|4,54,70,0,1589909353,"/etc/systemd/system.conf"
+'7  33  0  ~/.config/dunst/dunstrc
+|4,55,33,0,1589907887,"~/.config/dunst/dunstrc"
+'8  5  15  ~/.config/dunst/dunstrc
+|4,56,5,15,1589907853,"~/.config/dunst/dunstrc"
+'9  5  15  ~/.config/dunst/dunstrc
+|4,57,5,15,1589907853,"~/.config/dunst/dunstrc"
 
 # Lista de saltos (el más reciente va primero):
--'  140  66  ~/.zshrc
-|4,39,140,66,1589889308,"~/.zshrc"
--'  87  7  ~/.zshrc
-|4,39,87,7,1589889223,"~/.zshrc"
--'  121  9  ~/.zshrc
-|4,39,121,9,1589889222,"~/.zshrc"
--'  118  11  ~/.zshrc
-|4,39,118,11,1589889221,"~/.zshrc"
--'  14  0  ~/.zshrc
-|4,39,14,0,1589889219,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1589889212,"~/.zshrc"
--'  109  25  ~/.zshrc
-|4,39,109,25,1589888829,"~/.zshrc"
--'  109  25  ~/.zshrc
-|4,39,109,25,1589888829,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1589888775,"~/.zshrc"
--'  39  0  ~/.cache/yay/pistol-git/PKGBUILD
-|4,39,39,0,1589888609,"~/.cache/yay/pistol-git/PKGBUILD"
--'  39  0  ~/.cache/yay/pistol-git/PKGBUILD
-|4,39,39,0,1589888609,"~/.cache/yay/pistol-git/PKGBUILD"
--'  39  0  ~/.cache/yay/pistol-git/PKGBUILD
-|4,39,39,0,1589888609,"~/.cache/yay/pistol-git/PKGBUILD"
--'  39  0  ~/.cache/yay/pistol-git/PKGBUILD
-|4,39,39,0,1589888609,"~/.cache/yay/pistol-git/PKGBUILD"
--'  1  0  ~/.cache/yay/pistol-git/PKGBUILD
-|4,39,1,0,1589888543,"~/.cache/yay/pistol-git/PKGBUILD"
--'  1  0  ~/.cache/yay/pistol-git/PKGBUILD
-|4,39,1,0,1589888543,"~/.cache/yay/pistol-git/PKGBUILD"
--'  1  0  ~/.cache/yay/pistol-git/PKGBUILD
-|4,39,1,0,1589888543,"~/.cache/yay/pistol-git/PKGBUILD"
--'  1  0  ~/.cache/yay/pistol-git/PKGBUILD
-|4,39,1,0,1589888543,"~/.cache/yay/pistol-git/PKGBUILD"
--'  7  24  ~/.config/ranger/rc.conf
-|4,39,7,24,1589888283,"~/.config/ranger/rc.conf"
--'  7  24  ~/.config/ranger/rc.conf
-|4,39,7,24,1589888283,"~/.config/ranger/rc.conf"
--'  7  24  ~/.config/ranger/rc.conf
-|4,39,7,24,1589888283,"~/.config/ranger/rc.conf"
--'  7  24  ~/.config/ranger/rc.conf
-|4,39,7,24,1589888283,"~/.config/ranger/rc.conf"
--'  7  24  ~/.config/ranger/rc.conf
-|4,39,7,24,1589888283,"~/.config/ranger/rc.conf"
--'  7  24  ~/.config/ranger/rc.conf
-|4,39,7,24,1589888283,"~/.config/ranger/rc.conf"
--'  7  24  ~/.config/ranger/rc.conf
-|4,39,7,24,1589888283,"~/.config/ranger/rc.conf"
--'  7  24  ~/.config/ranger/rc.conf
-|4,39,7,24,1589888283,"~/.config/ranger/rc.conf"
--'  259  18  ~/.config/ranger/rc.conf
-|4,39,259,18,1589888240,"~/.config/ranger/rc.conf"
--'  259  18  ~/.config/ranger/rc.conf
-|4,39,259,18,1589888240,"~/.config/ranger/rc.conf"
--'  259  18  ~/.config/ranger/rc.conf
-|4,39,259,18,1589888240,"~/.config/ranger/rc.conf"
--'  259  18  ~/.config/ranger/rc.conf
-|4,39,259,18,1589888240,"~/.config/ranger/rc.conf"
--'  259  18  ~/.config/ranger/rc.conf
-|4,39,259,18,1589888240,"~/.config/ranger/rc.conf"
--'  259  18  ~/.config/ranger/rc.conf
-|4,39,259,18,1589888240,"~/.config/ranger/rc.conf"
--'  259  18  ~/.config/ranger/rc.conf
-|4,39,259,18,1589888240,"~/.config/ranger/rc.conf"
--'  259  18  ~/.config/ranger/rc.conf
-|4,39,259,18,1589888240,"~/.config/ranger/rc.conf"
--'  6  8  ~/.config/ranger/rc.conf
-|4,39,6,8,1589888233,"~/.config/ranger/rc.conf"
--'  6  8  ~/.config/ranger/rc.conf
-|4,39,6,8,1589888233,"~/.config/ranger/rc.conf"
--'  6  8  ~/.config/ranger/rc.conf
-|4,39,6,8,1589888233,"~/.config/ranger/rc.conf"
--'  6  8  ~/.config/ranger/rc.conf
-|4,39,6,8,1589888233,"~/.config/ranger/rc.conf"
--'  6  8  ~/.config/ranger/rc.conf
-|4,39,6,8,1589888233,"~/.config/ranger/rc.conf"
--'  6  8  ~/.config/ranger/rc.conf
-|4,39,6,8,1589888233,"~/.config/ranger/rc.conf"
--'  6  8  ~/.config/ranger/rc.conf
-|4,39,6,8,1589888233,"~/.config/ranger/rc.conf"
--'  6  8  ~/.config/ranger/rc.conf
-|4,39,6,8,1589888233,"~/.config/ranger/rc.conf"
--'  183  0  ~/.config/ranger/rc.conf
-|4,39,183,0,1589888157,"~/.config/ranger/rc.conf"
--'  183  0  ~/.config/ranger/rc.conf
-|4,39,183,0,1589888157,"~/.config/ranger/rc.conf"
--'  183  0  ~/.config/ranger/rc.conf
-|4,39,183,0,1589888157,"~/.config/ranger/rc.conf"
--'  183  0  ~/.config/ranger/rc.conf
-|4,39,183,0,1589888157,"~/.config/ranger/rc.conf"
--'  183  0  ~/.config/ranger/rc.conf
-|4,39,183,0,1589888157,"~/.config/ranger/rc.conf"
--'  183  0  ~/.config/ranger/rc.conf
-|4,39,183,0,1589888157,"~/.config/ranger/rc.conf"
--'  183  0  ~/.config/ranger/rc.conf
-|4,39,183,0,1589888157,"~/.config/ranger/rc.conf"
--'  183  0  ~/.config/ranger/rc.conf
-|4,39,183,0,1589888157,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1589888111,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1589888111,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1589888111,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1589888111,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1589888111,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1589888111,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1589888111,"~/.config/ranger/rc.conf"
--'  1  0  ~/.config/ranger/rc.conf
-|4,39,1,0,1589888111,"~/.config/ranger/rc.conf"
--'  180  0  ~/.config/ranger/commands_full.py
-|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
--'  180  0  ~/.config/ranger/commands_full.py
-|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
--'  180  0  ~/.config/ranger/commands_full.py
-|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
--'  180  0  ~/.config/ranger/commands_full.py
-|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
--'  180  0  ~/.config/ranger/commands_full.py
-|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
--'  180  0  ~/.config/ranger/commands_full.py
-|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
--'  180  0  ~/.config/ranger/commands_full.py
-|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
--'  180  0  ~/.config/ranger/commands_full.py
-|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
--'  180  0  ~/.config/ranger/commands_full.py
-|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
--'  180  0  ~/.config/ranger/commands_full.py
-|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
--'  180  0  ~/.config/ranger/commands_full.py
-|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
--'  180  0  ~/.config/ranger/commands_full.py
-|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
--'  180  0  ~/.config/ranger/commands_full.py
-|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
--'  180  0  ~/.config/ranger/commands_full.py
-|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
--'  180  0  ~/.config/ranger/commands_full.py
-|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
--'  180  0  ~/.config/ranger/commands_full.py
-|4,39,180,0,1589887964,"~/.config/ranger/commands_full.py"
--'  1  0  ~/.config/ranger/commands_full.py
-|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
--'  1  0  ~/.config/ranger/commands_full.py
-|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
--'  1  0  ~/.config/ranger/commands_full.py
-|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
--'  1  0  ~/.config/ranger/commands_full.py
-|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
--'  1  0  ~/.config/ranger/commands_full.py
-|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
--'  1  0  ~/.config/ranger/commands_full.py
-|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
--'  1  0  ~/.config/ranger/commands_full.py
-|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
--'  1  0  ~/.config/ranger/commands_full.py
-|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
--'  1  0  ~/.config/ranger/commands_full.py
-|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
--'  1  0  ~/.config/ranger/commands_full.py
-|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
--'  1  0  ~/.config/ranger/commands_full.py
-|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
--'  1  0  ~/.config/ranger/commands_full.py
-|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
--'  1  0  ~/.config/ranger/commands_full.py
-|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
--'  1  0  ~/.config/ranger/commands_full.py
-|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
--'  1  0  ~/.config/ranger/commands_full.py
-|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
--'  1  0  ~/.config/ranger/commands_full.py
-|4,39,1,0,1589887951,"~/.config/ranger/commands_full.py"
--'  84  0  ~/.config/ranger/scope.sh
-|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
--'  84  0  ~/.config/ranger/scope.sh
-|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
--'  84  0  ~/.config/ranger/scope.sh
-|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
--'  84  0  ~/.config/ranger/scope.sh
-|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
--'  84  0  ~/.config/ranger/scope.sh
-|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
--'  84  0  ~/.config/ranger/scope.sh
-|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
--'  84  0  ~/.config/ranger/scope.sh
-|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
--'  84  0  ~/.config/ranger/scope.sh
-|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
--'  84  0  ~/.config/ranger/scope.sh
-|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
--'  84  0  ~/.config/ranger/scope.sh
-|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
--'  84  0  ~/.config/ranger/scope.sh
-|4,39,84,0,1589887944,"~/.config/ranger/scope.sh"
+-'  114  0  ~/.config/openbox/rc.xml
+|4,39,114,0,1589971118,"~/.config/openbox/rc.xml"
+-'  1  0  ~/.config/openbox/rc.xml
+|4,39,1,0,1589971084,"~/.config/openbox/rc.xml"
+-'  1  0  ~/.config/betterlockscreenrc
+|4,39,1,0,1589911738,"~/.config/betterlockscreenrc"
+-'  1  0  ~/.config/betterlockscreenrc
+|4,39,1,0,1589911738,"~/.config/betterlockscreenrc"
+-'  34  0  /etc/i3/config
+|4,39,34,0,1589911041,"/etc/i3/config"
+-'  34  0  /etc/i3/config
+|4,39,34,0,1589911041,"/etc/i3/config"
+-'  34  0  /etc/i3/config
+|4,39,34,0,1589911041,"/etc/i3/config"
+-'  34  0  /etc/i3/config
+|4,39,34,0,1589911041,"/etc/i3/config"
+-'  1  0  /etc/i3/config
+|4,39,1,0,1589911032,"/etc/i3/config"
+-'  1  0  /etc/i3/config
+|4,39,1,0,1589911032,"/etc/i3/config"
+-'  1  0  /etc/i3/config
+|4,39,1,0,1589911032,"/etc/i3/config"
+-'  1  0  /etc/i3/config
+|4,39,1,0,1589911032,"/etc/i3/config"
+-'  1  0  /usr/bin/i3lock
+|4,39,1,0,1589910962,"/usr/bin/i3lock"
+-'  1  0  /usr/bin/i3lock
+|4,39,1,0,1589910962,"/usr/bin/i3lock"
+-'  1  0  /usr/bin/i3lock
+|4,39,1,0,1589910962,"/usr/bin/i3lock"
+-'  1  0  /usr/bin/i3lock
+|4,39,1,0,1589910962,"/usr/bin/i3lock"
+-'  1  0  /usr/bin/i3lock
+|4,39,1,0,1589910962,"/usr/bin/i3lock"
+-'  1  0  /usr/bin/i3lock
+|4,39,1,0,1589910962,"/usr/bin/i3lock"
+-'  1  0  /usr/bin/i3lock
+|4,39,1,0,1589910962,"/usr/bin/i3lock"
+-'  1  0  /usr/bin/i3lock
+|4,39,1,0,1589910962,"/usr/bin/i3lock"
+-'  1  0  ~/.config/i3lock-fancier/config.ini
+|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+-'  1  0  ~/.config/i3lock-fancier/config.ini
+|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+-'  1  0  ~/.config/i3lock-fancier/config.ini
+|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+-'  1  0  ~/.config/i3lock-fancier/config.ini
+|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+-'  1  0  ~/.config/i3lock-fancier/config.ini
+|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+-'  1  0  ~/.config/i3lock-fancier/config.ini
+|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+-'  1  0  ~/.config/i3lock-fancier/config.ini
+|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+-'  1  0  ~/.config/i3lock-fancier/config.ini
+|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+-'  1  0  ~/.config/i3lock-fancier/config.ini
+|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+-'  1  0  ~/.config/i3lock-fancier/config.ini
+|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+-'  1  0  ~/.config/i3lock-fancier/config.ini
+|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+-'  1  0  ~/.config/i3lock-fancier/config.ini
+|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+-'  1  0  ~/.config/i3lock-fancier/config.ini
+|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+-'  1  0  ~/.config/i3lock-fancier/config.ini
+|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+-'  1  0  ~/.config/i3lock-fancier/config.ini
+|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+-'  1  0  ~/.config/i3lock-fancier/config.ini
+|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  1  0  ~/.config/i3/config
+|4,39,1,0,1589910428,"~/.config/i3/config"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  70  0  /etc/systemd/system.conf
+|4,39,70,0,1589909353,"/etc/systemd/system.conf"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
 
+> ~/.config/openbox/rc.xml
+	*	1589971115	0
+	"	114	0
+	^	329	20
+	.	329	19
+	+	280	12
+	+	286	11
+	+	269	12
+	+	275	11
+	+	293	15
+	+	298	16
+	+	303	16
+	+	308	17
+	+	329	19
+
+> ~/.config/betterlockscreenrc
+	*	1589911728	0
+	"	1	0
+
+> /etc/i3/config
+	*	1589911036	0
+	"	34	0
+
+> /usr/bin/i3lock
+	*	1589910960	0
+	"	1	0
+
+> ~/.config/i3lock-fancier/config.ini
+	*	1589910439	0
+	"	1	0
+	^	154	33
+	.	154	32
+	+	154	32
+
+> ~/.config/i3/config
+	*	1589910422	0
+	"	1	0
+
+> /etc/systemd/system.conf
+	*	1589909352	0
+	"	70	0
+
+> ~/.config/dunst/dunstrc
+	*	1589907882	0
+	"	33	0
+	^	5	16
+	.	5	15
+	+	16	27
+	+	6	17
+	+	5	15
+	a	1	0
+
+> /usr/bin/powerline-shell
+	*	1589905415	0
+	"	1	0
+
+> ~/.config/powerline-shell/__pycache__/theme.cpython-38.pyc
+	*	1589905258	0
+	"	1	0
+
+> ~/.config/powerline-shell/config.json
+	*	1589905241	0
+	"	1	0
+	.	5	0
+	+	6	0
+	+	9	0
+	+	4	0
+	+	8	11
+	+	8	4
+	+	8	3
+	+	7	8
+	+	14	2
+	+	9	18
+	+	13	17
+	+	12	19
+	+	17	11
+	+	14	3
+	+	17	0
+	+	18	0
+	+	17	46
+	+	11	0
+	+	2	3
+	+	3	7
+	+	4	7
+	+	5	7
+	+	6	7
+	+	7	7
+	+	8	8
+	+	9	7
+	+	9	15
+	+	9	14
+	+	4	15
+	+	5	16
+	+	14	4
+	+	16	3
+	+	15	15
+	+	15	0
+	+	14	3
+	+	5	0
+
+> ~/.config/powerline-shell/theme.py
+	*	1589905234	0
+	"	45	0
+	^	15	15
+	.	15	14
+	+	44	15
+	+	12	30
+	+	5	19
+	+	6	19
+	+	7	23
+	+	6	21
+	+	5	19
+	+	13	15
+	+	12	31
+	+	13	16
+	+	14	15
+	+	15	15
+	+	29	22
+	+	31	21
+	+	32	22
+	+	5	0
+	+	6	19
+	+	5	19
+	+	6	0
+	+	15	13
+	+	6	0
+	+	24	20
+	+	15	14
+
 > ~/.zshrc
-	*	1589889302	0
-	"	140	66
-	^	140	67
-	.	140	66
+	*	1589905214	0
+	"	60	0
+	^	60	0
+	.	49	40
 	+	142	1
 	+	143	25
 	+	154	0
@@ -499,6 +638,89 @@ $
 	+	141	0
 	+	142	0
 	+	140	66
+	+	49	40
+
+> ~/.vimrc
+	*	1589905081	0
+	"	3	11
+	^	3	12
+	.	3	11
+	+	8	24
+	+	32	25
+	+	30	16
+	+	32	26
+	+	30	36
+	+	34	8
+	+	47	0
+	+	9	0
+	+	16	8
+	+	3	11
+	+	5	20
+	+	5	0
+	+	4	16
+	+	3	11
+
+> ~/.yarnrc
+	*	1589904952	0
+	"	1	0
+
+> ~/.vim/.netrwhist
+	*	1589904885	0
+	"	1	0
+
+> ~/.themes/minarch_mod/openbox-3/close.xbm
+	*	1589902869	0
+	"	1	0
+
+> ~/.themes/minarch_mod/openbox-3/desk.xbm
+	*	1589902729	0
+	"	4	7
+
+> ~/.themes/minarch_mod/openbox-3/themerc
+	*	1589902612	0
+	"	67	0
+	^	17	29
+	.	17	28
+	+	9	59
+	+	9	0
+	+	132	36
+	+	129	32
+	+	129	39
+	+	130	0
+	+	132	36
+	+	1	0
+	+	17	28
+
+> ~/.profile
+	*	1589902337	0
+	"	5	1
+	^	5	2
+	.	5	1
+	+	5	54
+	+	5	0
+	+	5	1
+
+> /usr/share/themes/minarch/openbox-3/themerc
+	*	1589898982	0
+	"	118	2
+
+> /usr/share/obconf/obconf.ui
+	*	1589890864	0
+	"	331	92
+
+> ~/.cfg/COMMIT_EDITMSG
+	*	1589889709	0
+	"	1	0
+
+> ~/README.md
+	*	1589889638	0
+	"	8	8
+	^	8	9
+	.	9	0
+	+	7	23
+	+	8	8
+	+	6	16
+	+	9	0
 
 > ~/.cache/yay/pistol-git/PKGBUILD
 	*	1589888608	0
@@ -529,10 +751,6 @@ $
 > ~/.config/ranger/colorschemes/tofu.py
 	*	1589887600	0
 	"	5	26
-
-> ~/.cfg/COMMIT_EDITMSG
-	*	1589826123	0
-	"	1	0
 
 > ~/.config/polybar/modules.ini
 	*	1589824997	0
@@ -703,10 +921,6 @@ $
 	+	24	0
 	+	162	29
 
-> ~/.config/dunst/dunstrc
-	*	1589812851	0
-	"	56	22
-
 > ~/.config/dconf/user
 	*	1589811921	0
 	"	1	0
@@ -750,18 +964,6 @@ $
 	.	3	43
 	+	3	43
 
-> ~/.vimrc
-	*	1589809701	0
-	"	64	16
-	.	47	0
-	+	8	24
-	+	32	25
-	+	30	16
-	+	32	26
-	+	30	36
-	+	34	8
-	+	47	0
-
 > ~/.config/neofetch/config.conf
 	*	1589741846	0
 	"	514	27
@@ -804,75 +1006,6 @@ $
 > ~/Imágenes/ascii/arch.
 	*	1589738418	0
 	"	1	0
-
-> ~/.config/powerline-shell/theme.py
-	*	1589738224	0
-	"	19	2
-	^	15	15
-	.	15	14
-	+	44	15
-	+	12	30
-	+	5	19
-	+	6	19
-	+	7	23
-	+	6	21
-	+	5	19
-	+	13	15
-	+	12	31
-	+	13	16
-	+	14	15
-	+	15	15
-	+	29	22
-	+	31	21
-	+	32	22
-	+	5	0
-	+	6	19
-	+	5	19
-	+	6	0
-	+	15	13
-	+	6	0
-	+	24	20
-	+	15	14
-
-> ~/.config/powerline-shell/config.json
-	*	1589737507	0
-	"	1	0
-	.	5	0
-	+	6	0
-	+	9	0
-	+	4	0
-	+	8	11
-	+	8	4
-	+	8	3
-	+	7	8
-	+	14	2
-	+	9	18
-	+	13	17
-	+	12	19
-	+	17	11
-	+	14	3
-	+	17	0
-	+	18	0
-	+	17	46
-	+	11	0
-	+	2	3
-	+	3	7
-	+	4	7
-	+	5	7
-	+	6	7
-	+	7	7
-	+	8	8
-	+	9	7
-	+	9	15
-	+	9	14
-	+	4	15
-	+	5	16
-	+	14	4
-	+	16	3
-	+	15	15
-	+	15	0
-	+	14	3
-	+	5	0
 
 > ~/.config/termite/config
 	*	1589733390	0
@@ -1000,21 +1133,6 @@ $
 	+	79	21
 	+	71	0
 
-> ~/.config/openbox/rc.xml
-	*	1589645255	0
-	"	309	19
-	^	329	20
-	.	329	19
-	+	280	12
-	+	286	11
-	+	269	12
-	+	275	11
-	+	293	15
-	+	298	16
-	+	303	16
-	+	308	17
-	+	329	19
-
 > ~/.config/openbox/bin/volume
 	*	1589644257	0
 	"	1	0
@@ -1048,10 +1166,6 @@ $
 	*	1589626033	0
 	"	1	0
 
-> ~/.yarnrc
-	*	1589625552	0
-	"	1	0
-
 > ~/.oh-my-zsh/tools/check_for_upgrade.sh
 	*	1589624682	0
 	"	1	0
@@ -1070,26 +1184,11 @@ $
 	+	35	15
 	+	92	23
 
-> ~/.vim/.netrwhist
-	*	1589623523	0
-	"	1	0
-
-> ~/.config/i3lock-fancier/config.ini
-	*	1589622743	0
-	"	154	32
-	^	154	33
-	.	154	32
-	+	154	32
-
 > /usr/share/themes/minarch/openbox-3/close.xbm
 	*	1589616954	0
 	"	1	0
 	.	1	0
 	+	1	0
-
-> /usr/share/themes/minarch/openbox-3/themerc
-	*	1589616912	0
-	"	61	0
 
 > ~/.config/openbox/bin/powermenu
 	*	1589568996	0
@@ -1212,107 +1311,3 @@ $
 > themes/network.rasi
 	*	1589565975	0
 	"	1	0
-
-> ~/.config/rofi/bin/powermenu
-	*	1589565800	0
-	"	69	0
-
-> ~/.config/rofi/themes/runner.rasi
-	*	1589565420	0
-	"	93	36
-	^	55	24
-	.	93	36
-	+	1	0
-	+	2	60
-	+	5	30
-	+	53	0
-	+	54	40
-	+	55	23
-	+	93	36
-
-> ~/.config/rofi/themes/launcher.rasi
-	*	1589565365	0
-	"	88	36
-	.	88	36
-	+	3	0
-	+	2	24
-	+	4	0
-	+	3	23
-	+	5	1
-	+	4	10
-	+	5	3
-	+	10	39
-	+	9	62
-	+	12	29
-	+	11	25
-	+	50	23
-	+	97	36
-	+	88	36
-	+	76	0
-	+	88	36
-
-> ~/.config/rofi/themes/mpd.rasi
-	*	1589565132	0
-	"	82	36
-	^	2	60
-	.	82	36
-	+	1	0
-	+	2	59
-	+	81	36
-	+	82	36
-
-> ~/.config/rofi/themes/powermenu.rasi
-	*	1589564961	0
-	"	82	36
-	^	82	37
-	.	82	36
-	+	1	13
-	+	1	0
-	+	3	63
-	+	5	39
-	+	5	26
-	+	6	0
-	+	5	0
-	+	4	40
-	+	3	41
-	+	35	1
-	+	36	0
-	+	35	1
-	+	3	59
-	+	82	36
-
-> ~/.config/rofi/themes/screenshot.rasi
-	*	1589563918	0
-	"	105	0
-	^	2	60
-	.	81	36
-	+	2	0
-	+	1	0
-	+	2	59
-	+	32	28
-	+	68	36
-	+	81	36
-
-> ~/mpd.rasi
-	*	1589562520	0
-	"	1	0
-
-> ~/.config/rofi/themes/colors.rasi
-	*	1589553466	0
-	"	1	0
-
-> ~/.configls
-	*	1589552131	0
-	"	1	0
-
-> /etc/locale.conf
-	*	1589490313	0
-	"	1	0
-
-> ~/.viminfo
-	*	1589468634	0
-	"	5	0
-
-> ~/.config/termite/config_easy
-	*	1589468486	0
-	"	56	0

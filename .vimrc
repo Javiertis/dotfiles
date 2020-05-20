@@ -1,6 +1,6 @@
 noh
 syntax on
-set t_Co=16
+set t_Co=256
 set nocompatible
 set showmode
 set showcmd
