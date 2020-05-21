@@ -1,13 +1,24 @@
+" PLUGINS
+call plug#begin('~/.vim/plugged')
+  Plug 'junegunn/vim-easy-align'
+  Plug 'tpope/vim-markdown'
+  Plug 'tpope/vim-surround'
+  Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
+  Plug 'tomasiser/vim-code-dark'
+call plug#end()
+" CONFIG
 noh
 syntax on
 set t_Co=256
 set nocompatible
-set showmode
 set showcmd
 set ruler
 set number relativenumber
 set cursorline
+" set cursorcolumn
 set expandtab
+set mouse=a
 set noshiftround
 set lazyredraw
 set magic
@@ -31,7 +42,13 @@ set statusline=%1*\ file\ %3*\ %f\ %4*\
 set statusline+=%=\ 
 set statusline+=%3*\ %c\:\%l\/\%L\ %2*\ line\ 
 set scrolloff=8
-nmap <C-S> :w<CR>
+" MAPPING
+let mapleader=' '
+cmap w!! w !sudo tee > /dev/null %
+nnoremap <tab>   <c-w>w
+nnoremap <S-tab> <c-w>W
+nnoremap <C-s> :%s//gI<Left><Left><Left>
+nmap <leader>w :w<CR> 
 nmap <C-_> :noh<CR>
 nmap <S-Left> v<Left>
 nmap <S-Right> v<Right>
@@ -42,9 +59,9 @@ nmap <C-Z> u
 nmap <C-Y> <C-R>
 nmap <C-F> /
 nmap <C-H> i<C-W><Esc>
-nmap <F3> :set invnumber<CR>
-nmap <F4> :q<CR>
-imap <C-S> <Esc>:w<CR>a
+nmap <F4> :wq<CR>
+nmap ga <Plug>(EasyAlign)
+imap <C-G> <Esc>:w<CR>a
 imap <C-_> <Esc>:noh<CR>a
 imap <S-Left> <Esc>lv<Left>
 imap <S-Right> <Esc>lv<Right>
@@ -57,10 +74,11 @@ imap <Nul> <C-N>
 imap <C-F> <Esc>/
 imap <C-H> <C-W>
 imap <C-V> <Esc>pa
-imap <F3> <Esc>:set invnumber<CR>a
-imap <F4> <Esc>:q<CR>
+imap <F4> <Esc>:wq<CR>
+xmap ga <Plug>(EasyAlign)
 vmap <C-Up> 8k
 vmap <C-Down> 8j
+" HILIGHTING
 hi linenr ctermfg=8
 hi cursorline cterm=NONE
 hi cursorlinenr ctermfg=15
@@ -77,6 +95,5 @@ hi user1 ctermbg=1 ctermfg=0
 hi user2 ctermbg=4 ctermfg=0
 hi user3 ctermbg=0 ctermfg=NONE
 hi user4 ctermbg=NONE ctermfg=NONE
-hi group1 ctermbg=NONE ctermfg=0
-autocmd colorscheme * hi clear cursorline
+hi group1 ctermbg=NONE ctermfg=0 
 match group1 /\t/

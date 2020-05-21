@@ -34,6 +34,7 @@ o W-S-Right       	SendToDesktopRight
 x XF86AudioRaiseVolume	~/.config/openbox/bin/volume-up
 x XF86AudioLowerVolume	~/.config/openbox/bin/volume-down
 x XF86AudioMute   	amixer sset Master toggle
+x Launch3         	termite -e alsamixer
 x XF86AudioStop   	playerctl stop
 x XF86AudioPlay   	playerctl play-pause
 x XF86AudioPrev   	playerctl previous
@@ -55,7 +56,7 @@ x W-s             	~/.config/rofi/bin/screenshot
 x W-i             	~/.config/rofi/bin/network
 x W-c             	~/.config/openbox/bin/color_picker
 x C-A-t           	termite -c ~/.config/termite/config_easy
-x W-A-l           	i3lock
+x W-A-l           	betterlockscreen -l dimxblur
 x C-A-v           	termite -e vim
 x C-A-r           	termite -e ranger
 x C-A-h           	termite -e htop

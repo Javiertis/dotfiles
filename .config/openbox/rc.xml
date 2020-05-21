@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <resistance>
     <strength>10</strength>
@@ -229,28 +230,28 @@
     <keybind key="A-z">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
-        <x>15</x>
-        <y>15</y>
+        <x>0</x>
+        <y>0</y>
         <width>32%</width>
-        <height>97%</height>
+        <height>100%</height>
       </action>
     </keybind>
     <keybind key="A-x">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
         <x>34%</x>
-        <y>15</y>
+        <y>0</y>
         <width>32%</width>
-        <height>97%</height>
+        <height>100%</height>
       </action>
     </keybind>
     <keybind key="A-c">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
-        <x>-17</x>
-        <y>15</y>
+        <x>68%</x>
+        <y>0</y>
         <width>32%</width>
-        <height>97%</height>
+        <height>100%</height>
       </action>
     </keybind>
     <keybind key="W-A-Up">

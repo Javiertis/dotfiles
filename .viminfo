@@ -11,18 +11,52 @@
 # hlsearch on (H) or off (h):
 ~h
 # Último Patrón de búsqueda:
-~MSle0~/ps1
+~MSle0~/A-
 
 # Última cadena de sustitución:
 $
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
-:q
-|2,0,1589911738,,"q"
 :wq
-|2,0,1589907853,,"wq"
+|2,0,1590081994,,"wq"
+:q
+|2,0,1590081441,,"q"
+:PlugInstall
+|2,0,1590081430,,"PlugInstall"
+:i
+|2,0,1590081004,,"i"
 :w
-|2,0,1589906861,,"w"
+|2,0,1590080116,,"w"
+:vsplit prueba
+|2,0,1590079727,,"vsplit prueba"
+:Q
+|2,0,1590079563,,"Q"
+:q!
+|2,0,1590079269,,"q!"
+:e README.md
+|2,0,1590079241,,"e README.md"
+:vsplit
+|2,0,1590079153,,"vsplit"
+:W
+|2,0,1590077751,,"W"
+:packadd
+|2,0,1590077458,,"packadd"
+:help pack-add
+|2,0,1590077434,,"help pack-add"
+:=vi	
+|2,0,1590077330,,"=vi	"
+:plugin
+|2,0,1590077317,,"plugin"
+:help vim-plug
+|2,0,1590077299,,"help vim-plug"
+:qa!
+|2,0,1589995210,,"qa!"
+:w!
+|2,0,1589995205,,"w!"
+:wW
+|2,0,1589995194,,"wW"
+:wq!
+|2,0,1589995180,,"wq!"
 :Explore
 |2,0,1589904863,,"Explore"
 :wwq
@@ -33,12 +67,6 @@ $
 |2,0,1589900926,,"source .vimrc"
 :source
 |2,0,1589900914,,"source"
-:q!
-|2,0,1589901619,,"q!"
-:wq!
-|2,0,1589822433,,"wq!"
-:qa!
-|2,0,1589815978,,"qa!"
 :Lexplore close
 |2,0,1589813783,,"Lexplore close"
 :ql
@@ -51,8 +79,6 @@ $
 |2,0,1589813525,,"! echo scripts/polybar-spotify/spotify_status.py"
 :wqq
 |2,0,1589714244,,"wqq"
-:w!
-|2,0,1589655457,,"w!"
 :q1
 |2,0,1589625082,,"q1"
 :split
@@ -67,6 +93,8 @@ $
 |2,0,1589490060,,"1"
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+?/A-
+|2,1,1589983011,47,"A-"
 ?/tran
 |2,1,1589907248,47,"tran"
 ?/ps1
@@ -165,8 +193,6 @@ $
 |2,1,1589565044,47,"cy"
 ? = $
 |2,1,1589562993,,"= $"
-?/bar
-|2,1,1589490684,47,"bar"
 
 # Historia de Expresión (de lo más nuevo a lo más antiguo):
 
@@ -176,277 +202,519 @@ $
 
 # Registros:
 "0	LINE	0
-	set nocompatible
-|3,0,0,1,1,0,1589904864,"set nocompatible"
-"1	LINE	0
-	set nocompatible
-|3,0,1,1,1,0,1589902434,"set nocompatible"
+	set cursorline
+|3,0,0,1,1,0,1590080997,"set cursorline"
+""1	LINE	0
+	imap <F3> <Esc>:set invnumber<CR>a
+|3,1,1,1,1,0,1590081971,"imap <F3> <Esc>:set invnumber<CR>a"
 "2	LINE	0
-	set t_AB=^[[48;5;%dm
-|3,0,2,1,1,0,1589902426,"set t_AB=^[[48;5;%dm"
+	nmap <F3> :set invnumber<CR>
+|3,0,2,1,1,0,1590081799,"nmap <F3> :set invnumber<CR>"
 "3	LINE	0
-	set t_AF=^[[38;5;%dm
-|3,0,3,1,1,0,1589902424,"set t_AF=^[[38;5;%dm"
+	set showmode
+|3,0,3,1,1,0,1590081722,"set showmode"
 "4	LINE	0
-	fiif [ -e /usr/share/terminfo/x/xterm-256color ]; then
-	        export TERM='xterm-256color'
-	else
-	        export TERM='xterm-color'
-	fi
-|3,0,4,1,5,0,1589902321,"fiif [ -e /usr/share/terminfo/x/xterm-256color ]; then","        export TERM='xterm-256color'","else","        export TERM='xterm-color'","fi"
+	set termguicolors
+|3,0,4,1,1,0,1590081686,"set termguicolors"
 "5	LINE	0
-	# Copyright (C) 2020 Javier Tejedor <javi.teje99@gmail.com>
-|3,0,5,1,1,0,1589900118,"# Copyright (C) 2020 Javier Tejedor <javi.teje99@gmail.com>"
+	set cursorline
+|3,0,5,1,1,0,1590080829,"set cursorline"
 "6	LINE	0
-	alias ohmyzsh="thunar ~/.oh-my-zsh"
-|3,0,6,1,1,0,1589886701,"alias ohmyzsh=\"thunar ~/.oh-my-zsh\""
+	
+|3,0,6,1,1,0,1590079891,""
 "7	LINE	0
-	plugins=(git)
-|3,0,7,1,1,0,1589886697,"plugins=(git)"
+	apple  = red
+	grass += green
+	sky   -= blue
+|3,0,7,1,3,0,1590078993,"apple  = red","grass += green","sky   -= blue"
 "8	LINE	0
-	source $ZSH/oh-my-zsh.sh
-|3,0,8,1,1,0,1589886695,"source $ZSH/oh-my-zsh.sh"
+	apple  = red
+	grass += green
+	sky   -= blue
+|3,0,8,1,3,0,1590078777,"apple  = red","grass += green","sky   -= blue"
 "9	LINE	0
-	export ZSH=/usr/share/oh-my-zsh
-|3,0,9,1,1,0,1589886685,"export ZSH=/usr/share/oh-my-zsh"
+	Plug 'rdnetto/YCM-Generator'
+|3,0,9,1,1,0,1590078606,"Plug 'rdnetto/YCM-Generator'"
 "a@	CHAR	0
 	xj
 |3,2,10,0,1,0,1589900936,"xj"
-""-	CHAR	0
-	scientifica
-|3,1,36,0,1,0,1589906794,"scientifica"
+"-	CHAR	0
+	rk
+|3,0,36,0,1,0,1590081666,"rk"
 
 # Marcas en el archivo:
-'0  114  0  ~/.config/openbox/rc.xml
-|4,48,114,0,1589971118,"~/.config/openbox/rc.xml"
-'1  1  0  ~/.config/betterlockscreenrc
-|4,49,1,0,1589911738,"~/.config/betterlockscreenrc"
-'2  34  0  /etc/i3/config
-|4,50,34,0,1589911041,"/etc/i3/config"
-'3  1  0  /usr/bin/i3lock
-|4,51,1,0,1589910962,"/usr/bin/i3lock"
-'4  1  0  ~/.config/i3lock-fancier/config.ini
-|4,52,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
-'5  1  0  ~/.config/i3/config
-|4,53,1,0,1589910428,"~/.config/i3/config"
-'6  70  0  /etc/systemd/system.conf
-|4,54,70,0,1589909353,"/etc/systemd/system.conf"
-'7  33  0  ~/.config/dunst/dunstrc
-|4,55,33,0,1589907887,"~/.config/dunst/dunstrc"
-'8  5  15  ~/.config/dunst/dunstrc
-|4,56,5,15,1589907853,"~/.config/dunst/dunstrc"
-'9  5  15  ~/.config/dunst/dunstrc
-|4,57,5,15,1589907853,"~/.config/dunst/dunstrc"
+'0  45  0  ~/.vimrc
+|4,48,45,0,1590081994,"~/.vimrc"
+'1  70  8  ~/.vimrc
+|4,49,70,8,1590081871,"~/.vimrc"
+'2  70  8  ~/.vimrc
+|4,50,70,8,1590081871,"~/.vimrc"
+'3  14  0  ~/.vimrc
+|4,51,14,0,1590081689,"~/.vimrc"
+'4  14  0  ~/.vimrc
+|4,52,14,0,1590081689,"~/.vimrc"
+'5  14  0  ~/.vimrc
+|4,53,14,0,1590081689,"~/.vimrc"
+'6  14  0  ~/.vimrc
+|4,54,14,0,1590081689,"~/.vimrc"
+'7  98  31  ~/.vimrc
+|4,55,98,31,1590081679,"~/.vimrc"
+'8  99  31  ~/.vimrc
+|4,56,99,31,1590081679,"~/.vimrc"
+'9  100  31  ~/.vimrc
+|4,57,100,31,1590081679,"~/.vimrc"
 
 # Lista de saltos (el más reciente va primero):
--'  114  0  ~/.config/openbox/rc.xml
-|4,39,114,0,1589971118,"~/.config/openbox/rc.xml"
--'  1  0  ~/.config/openbox/rc.xml
-|4,39,1,0,1589971084,"~/.config/openbox/rc.xml"
--'  1  0  ~/.config/betterlockscreenrc
-|4,39,1,0,1589911738,"~/.config/betterlockscreenrc"
--'  1  0  ~/.config/betterlockscreenrc
-|4,39,1,0,1589911738,"~/.config/betterlockscreenrc"
--'  34  0  /etc/i3/config
-|4,39,34,0,1589911041,"/etc/i3/config"
--'  34  0  /etc/i3/config
-|4,39,34,0,1589911041,"/etc/i3/config"
--'  34  0  /etc/i3/config
-|4,39,34,0,1589911041,"/etc/i3/config"
--'  34  0  /etc/i3/config
-|4,39,34,0,1589911041,"/etc/i3/config"
--'  1  0  /etc/i3/config
-|4,39,1,0,1589911032,"/etc/i3/config"
--'  1  0  /etc/i3/config
-|4,39,1,0,1589911032,"/etc/i3/config"
--'  1  0  /etc/i3/config
-|4,39,1,0,1589911032,"/etc/i3/config"
--'  1  0  /etc/i3/config
-|4,39,1,0,1589911032,"/etc/i3/config"
--'  1  0  /usr/bin/i3lock
-|4,39,1,0,1589910962,"/usr/bin/i3lock"
--'  1  0  /usr/bin/i3lock
-|4,39,1,0,1589910962,"/usr/bin/i3lock"
--'  1  0  /usr/bin/i3lock
-|4,39,1,0,1589910962,"/usr/bin/i3lock"
--'  1  0  /usr/bin/i3lock
-|4,39,1,0,1589910962,"/usr/bin/i3lock"
--'  1  0  /usr/bin/i3lock
-|4,39,1,0,1589910962,"/usr/bin/i3lock"
--'  1  0  /usr/bin/i3lock
-|4,39,1,0,1589910962,"/usr/bin/i3lock"
--'  1  0  /usr/bin/i3lock
-|4,39,1,0,1589910962,"/usr/bin/i3lock"
--'  1  0  /usr/bin/i3lock
-|4,39,1,0,1589910962,"/usr/bin/i3lock"
--'  1  0  ~/.config/i3lock-fancier/config.ini
-|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
--'  1  0  ~/.config/i3lock-fancier/config.ini
-|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
--'  1  0  ~/.config/i3lock-fancier/config.ini
-|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
--'  1  0  ~/.config/i3lock-fancier/config.ini
-|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
--'  1  0  ~/.config/i3lock-fancier/config.ini
-|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
--'  1  0  ~/.config/i3lock-fancier/config.ini
-|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
--'  1  0  ~/.config/i3lock-fancier/config.ini
-|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
--'  1  0  ~/.config/i3lock-fancier/config.ini
-|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
--'  1  0  ~/.config/i3lock-fancier/config.ini
-|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
--'  1  0  ~/.config/i3lock-fancier/config.ini
-|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
--'  1  0  ~/.config/i3lock-fancier/config.ini
-|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
--'  1  0  ~/.config/i3lock-fancier/config.ini
-|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
--'  1  0  ~/.config/i3lock-fancier/config.ini
-|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
--'  1  0  ~/.config/i3lock-fancier/config.ini
-|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
--'  1  0  ~/.config/i3lock-fancier/config.ini
-|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
--'  1  0  ~/.config/i3lock-fancier/config.ini
-|4,39,1,0,1589910449,"~/.config/i3lock-fancier/config.ini"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  1  0  ~/.config/i3/config
-|4,39,1,0,1589910428,"~/.config/i3/config"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
--'  70  0  /etc/systemd/system.conf
-|4,39,70,0,1589909353,"/etc/systemd/system.conf"
+-'  45  0  ~/.vimrc
+|4,39,45,0,1590081994,"~/.vimrc"
+-'  76  14  ~/.vimrc
+|4,39,76,14,1590081952,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590081871,"~/.vimrc"
+-'  70  8  ~/.vimrc
+|4,39,70,8,1590081871,"~/.vimrc"
+-'  70  8  ~/.vimrc
+|4,39,70,8,1590081871,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590081690,"~/.vimrc"
+-'  14  0  ~/.vimrc
+|4,39,14,0,1590081689,"~/.vimrc"
+-'  14  0  ~/.vimrc
+|4,39,14,0,1590081689,"~/.vimrc"
+-'  14  0  ~/.vimrc
+|4,39,14,0,1590081689,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590081680,"~/.vimrc"
+-'  98  31  ~/.vimrc
+|4,39,98,31,1590081679,"~/.vimrc"
+-'  99  31  ~/.vimrc
+|4,39,99,31,1590081679,"~/.vimrc"
+-'  100  31  ~/.vimrc
+|4,39,100,31,1590081679,"~/.vimrc"
+-'  101  31  ~/.vimrc
+|4,39,101,31,1590081679,"~/.vimrc"
+-'  99  31  ~/.vimrc
+|4,39,99,31,1590081679,"~/.vimrc"
+-'  100  31  ~/.vimrc
+|4,39,100,31,1590081679,"~/.vimrc"
+-'  101  31  ~/.vimrc
+|4,39,101,31,1590081679,"~/.vimrc"
+-'  102  31  ~/.vimrc
+|4,39,102,31,1590081679,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590081504,"~/.vimrc"
+-'  102  10  ~/.vimrc
+|4,39,102,10,1590081503,"~/.vimrc"
+-'  101  10  ~/.vimrc
+|4,39,101,10,1590081503,"~/.vimrc"
+-'  102  10  ~/.vimrc
+|4,39,102,10,1590081503,"~/.vimrc"
+-'  103  10  ~/.vimrc
+|4,39,103,10,1590081503,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590081479,"~/.vimrc"
+-'  103  16  ~/.vimrc
+|4,39,103,16,1590081475,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590081464,"~/.vimrc"
+-'  103  0  ~/.vimrc
+|4,39,103,0,1590081457,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590081424,"~/.vimrc"
+-'  103  15  ~/.vimrc
+|4,39,103,15,1590081421,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590081322,"~/.vimrc"
+-'  13  1  ~/.vimrc
+|4,39,13,1,1590081321,"~/.vimrc"
+-'  11  1  ~/.vimrc
+|4,39,11,1,1590081321,"~/.vimrc"
+-'  13  1  ~/.vimrc
+|4,39,13,1,1590081321,"~/.vimrc"
+-'  11  1  ~/.vimrc
+|4,39,11,1,1590081321,"~/.vimrc"
+-'  13  1  ~/.vimrc
+|4,39,13,1,1590081321,"~/.vimrc"
+-'  11  1  ~/.vimrc
+|4,39,11,1,1590081321,"~/.vimrc"
+-'  13  1  ~/.vimrc
+|4,39,13,1,1590081321,"~/.vimrc"
+-'  11  1  ~/.vimrc
+|4,39,11,1,1590081321,"~/.vimrc"
+-'  13  1  ~/.vimrc
+|4,39,13,1,1590081321,"~/.vimrc"
+-'  11  1  ~/.vimrc
+|4,39,11,1,1590081321,"~/.vimrc"
+-'  13  1  ~/.vimrc
+|4,39,13,1,1590081321,"~/.vimrc"
+-'  11  1  ~/.vimrc
+|4,39,11,1,1590081321,"~/.vimrc"
+-'  13  1  ~/.vimrc
+|4,39,13,1,1590081321,"~/.vimrc"
+-'  11  1  ~/.vimrc
+|4,39,11,1,1590081321,"~/.vimrc"
+-'  13  1  ~/.vimrc
+|4,39,13,1,1590081321,"~/.vimrc"
+-'  11  1  ~/.vimrc
+|4,39,11,1,1590081321,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590081294,"~/.vimrc"
+-'  11  1  ~/.vimrc
+|4,39,11,1,1590081293,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590081222,"~/.vimrc"
+-'  21  10  ~/.vimrc
+|4,39,21,10,1590081219,"~/.vimrc"
+-'  20  10  ~/.vimrc
+|4,39,20,10,1590081219,"~/.vimrc"
+-'  19  10  ~/.vimrc
+|4,39,19,10,1590081219,"~/.vimrc"
+-'  18  10  ~/.vimrc
+|4,39,18,10,1590081219,"~/.vimrc"
+-'  22  10  ~/.vimrc
+|4,39,22,10,1590081219,"~/.vimrc"
+-'  23  10  ~/.vimrc
+|4,39,23,10,1590081219,"~/.vimrc"
+-'  21  10  ~/.vimrc
+|4,39,21,10,1590081219,"~/.vimrc"
+-'  20  10  ~/.vimrc
+|4,39,20,10,1590081219,"~/.vimrc"
+-'  19  10  ~/.vimrc
+|4,39,19,10,1590081219,"~/.vimrc"
+-'  18  10  ~/.vimrc
+|4,39,18,10,1590081219,"~/.vimrc"
+-'  22  10  ~/.vimrc
+|4,39,22,10,1590081219,"~/.vimrc"
+-'  22  10  ~/.vimrc
+|4,39,22,10,1590081219,"~/.vimrc"
+-'  21  10  ~/.vimrc
+|4,39,21,10,1590081219,"~/.vimrc"
+-'  20  10  ~/.vimrc
+|4,39,20,10,1590081219,"~/.vimrc"
+-'  19  10  ~/.vimrc
+|4,39,19,10,1590081219,"~/.vimrc"
+-'  23  10  ~/.vimrc
+|4,39,23,10,1590081219,"~/.vimrc"
+-'  22  10  ~/.vimrc
+|4,39,22,10,1590081219,"~/.vimrc"
+-'  21  10  ~/.vimrc
+|4,39,21,10,1590081219,"~/.vimrc"
+-'  20  10  ~/.vimrc
+|4,39,20,10,1590081219,"~/.vimrc"
+-'  23  10  ~/.vimrc
+|4,39,23,10,1590081219,"~/.vimrc"
+-'  22  10  ~/.vimrc
+|4,39,22,10,1590081219,"~/.vimrc"
+-'  21  10  ~/.vimrc
+|4,39,21,10,1590081219,"~/.vimrc"
+-'  20  10  ~/.vimrc
+|4,39,20,10,1590081219,"~/.vimrc"
+-'  23  10  ~/.vimrc
+|4,39,23,10,1590081219,"~/.vimrc"
+-'  22  10  ~/.vimrc
+|4,39,22,10,1590081219,"~/.vimrc"
+-'  21  10  ~/.vimrc
+|4,39,21,10,1590081219,"~/.vimrc"
+-'  20  10  ~/.vimrc
+|4,39,20,10,1590081219,"~/.vimrc"
+-'  23  10  ~/.vimrc
+|4,39,23,10,1590081219,"~/.vimrc"
+-'  22  10  ~/.vimrc
+|4,39,22,10,1590081219,"~/.vimrc"
+-'  21  10  ~/.vimrc
+|4,39,21,10,1590081219,"~/.vimrc"
+-'  20  10  ~/.vimrc
+|4,39,20,10,1590081219,"~/.vimrc"
+-'  23  10  ~/.vimrc
+|4,39,23,10,1590081219,"~/.vimrc"
+-'  22  10  ~/.vimrc
+|4,39,22,10,1590081219,"~/.vimrc"
+-'  21  10  ~/.vimrc
+|4,39,21,10,1590081219,"~/.vimrc"
+-'  20  10  ~/.vimrc
+|4,39,20,10,1590081219,"~/.vimrc"
+-'  21  10  ~/.vimrc
+|4,39,21,10,1590081219,"~/.vimrc"
+-'  20  10  ~/.vimrc
+|4,39,20,10,1590081219,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590081155,"~/.vimrc"
+-'  51  13  ~/.vimrc
+|4,39,51,13,1590081154,"~/.vimrc"
+-'  49  13  ~/.vimrc
+|4,39,49,13,1590081154,"~/.vimrc"
+-'  50  13  ~/.vimrc
+|4,39,50,13,1590081154,"~/.vimrc"
+-'  48  13  ~/.vimrc
+|4,39,48,13,1590081154,"~/.vimrc"
+-'  47  13  ~/.vimrc
+|4,39,47,13,1590081154,"~/.vimrc"
+-'  46  13  ~/.vimrc
+|4,39,46,13,1590081154,"~/.vimrc"
+-'  52  13  ~/.vimrc
+|4,39,52,13,1590081154,"~/.vimrc"
+-'  53  13  ~/.vimrc
+|4,39,53,13,1590081154,"~/.vimrc"
+-'  51  13  ~/.vimrc
+|4,39,51,13,1590081154,"~/.vimrc"
+-'  49  13  ~/.vimrc
+|4,39,49,13,1590081154,"~/.vimrc"
+-'  50  13  ~/.vimrc
+|4,39,50,13,1590081154,"~/.vimrc"
+-'  48  13  ~/.vimrc
+|4,39,48,13,1590081154,"~/.vimrc"
+-'  47  13  ~/.vimrc
+|4,39,47,13,1590081154,"~/.vimrc"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
 
+> ~/.vimrc
+	*	1590081989	0
+	"	45	0
+	^	76	15
+	.	77	0
+	+	17	24
+	+	43	25
+	+	41	16
+	+	43	26
+	+	41	36
+	+	45	8
+	+	63	0
+	+	18	0
+	+	27	8
+	+	13	11
+	+	15	20
+	+	15	0
+	+	14	16
+	+	13	11
+	+	45	8
+	+	10	7
+	+	81	11
+	+	2	33
+	+	6	14
+	+	3	28
+	+	1	61
+	+	1	4
+	+	1	0
+	+	3	30
+	+	63	24
+	+	78	24
+	+	4	25
+	+	70	0
+	+	68	20
+	+	5	25
+	+	46	15
+	+	47	23
+	+	49	22
+	+	50	11
+	+	52	0
+	+	50	18
+	+	6	0
+	+	13	0
+	+	50	39
+	+	47	33
+	+	18	16
+	+	19	0
+	+	18	0
+	+	19	0
+	+	51	11
+	+	19	1
+	+	51	13
+	+	6	0
+	+	21	10
+	+	14	16
+	+	13	0
+	+	8	31
+	+	5	1
+	+	4	1
+	+	3	1
+	+	98	32
+	+	99	0
+	+	14	0
+	+	15	0
+	+	62	11
+	+	64	8
+	+	77	16
+	+	76	0
+	+	77	0
+
+> /usr/share/vim/vim82/doc/options.txt
+	*	1590080425	0
+	"	24	13
+
+> ~/prueba
+	*	1590079883	0
+	"	1	0
+	^	3	12
+	.	3	11
+	+	1	11
+	+	1	0
+	+	1	12
+	+	1	11
+	+	1	12
+	+	3	11
+
+> ~/README.md
+	*	1590079267	0
+	"	4	0
+	^	4	1
+	.	4	0
+	+	7	23
+	+	8	8
+	+	6	16
+	+	9	0
+	+	4	0
+
+> /usr/share/vim/vim82/doc/repeat.txt
+	*	1590077503	0
+	"	649	51
+
+> /usr/share/vim/vim82/doc/filetype.txt
+	*	1590077330	0
+	"	620	0
+
+> ~/.config/Debauchee/Barrier.conf
+	*	1589999015	0
+	"	1	0
+	^	2	16
+	.	2	15
+	+	11	0
+	+	2	15
+
+> ~/.config/Debauchee/barrier
+	*	1589998983	0
+	"	1	0
+
+> ~/.config/openbox/autostart
+	*	1589998885	0
+	"	29	15
+	^	29	16
+	.	29	16
+	+	11	1
+	+	29	18
+	+	29	102
+	+	29	16
+
+> ~/.zshrc
+	*	1589998608	0
+	"	143	17
+	^	143	2
+	.	143	0
+	+	142	1
+	+	142	65
+	+	150	0
+	+	139	0
+	+	137	19
+	+	139	12
+	+	10	22
+	+	16	0
+	+	67	0
+	+	117	17
+	+	10	19
+	+	5	0
+	+	10	0
+	+	85	0
+	+	84	1
+	+	5	0
+	+	10	0
+	+	63	1
+	+	5	0
+	+	85	0
+	+	86	0
+	+	85	0
+	+	86	0
+	+	5	0
+	+	10	16
+	+	5	19
+	+	5	31
+	+	48	0
+	+	49	1
+	+	50	0
+	+	52	0
+	+	53	0
+	+	54	0
+	+	62	0
+	+	63	0
+	+	2	0
+	+	5	31
+	+	49	0
+	+	48	0
+	+	63	0
+	+	5	0
+	+	10	0
+	+	5	0
+	+	23	0
+	+	26	0
+	+	44	0
+	+	67	0
+	+	98	0
+	+	142	38
+	+	5	0
+	+	86	0
+	+	85	0
+	+	122	0
+	+	103	92
+	+	103	0
+	+	104	51
+	+	105	0
+	+	110	0
+	+	109	25
+	+	141	0
+	+	142	0
+	+	140	66
+	+	49	40
+	+	121	13
+	+	142	135
+	+	1	60
+	+	142	40
+	+	143	0
+
+> ~/.config/systemd/user/barrierc.service
+	*	1589998403	0
+	"	6	31
+	^	6	32
+	.	6	31
+	+	11	22
+	+	6	71
+	+	2	18
+	+	6	31
+
+> ~/.profile
+	*	1589995716	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	5	54
+	+	5	0
+	+	5	1
+	+	1	0
+	+	1	1
+
+> /etc/hosts
+	*	1589995206	0
+	"	4	0
+	^	4	40
+	.	4	39
+	+	4	39
+
+> ~/.zsh
+	*	1589994709	0
+	"	1	0
+
+> ~/.config/openbox/menu.xml
+	*	1589986166	0
+	"	111	0
+	.	80	0
+	+	1	0
+	+	129	0
+	+	203	0
+	+	80	0
+
 > ~/.config/openbox/rc.xml
-	*	1589971115	0
-	"	114	0
-	^	329	20
-	.	329	19
+	*	1589985904	0
+	"	361	8
+	^	235	13
+	.	236	0
 	+	280	12
 	+	286	11
 	+	269	12
@@ -456,6 +724,80 @@ $
 	+	303	16
 	+	308	17
 	+	329	19
+	+	236	18
+	+	235	16
+	+	233	11
+	+	234	11
+	+	242	11
+	+	243	11
+	+	244	16
+	+	245	18
+	+	251	11
+	+	252	11
+	+	253	16
+	+	254	17
+	+	253	16
+	+	244	16
+	+	235	16
+	+	242	13
+	+	251	12
+	+	242	12
+	+	233	11
+	+	234	11
+	+	243	11
+	+	252	11
+	+	242	12
+	+	251	12
+	+	242	12
+	+	251	12
+	+	233	12
+	+	235	16
+	+	244	16
+	+	253	17
+	+	233	11
+	+	235	18
+	+	242	14
+	+	251	14
+	+	244	18
+	+	253	18
+	+	235	17
+	+	244	16
+	+	251	14
+	+	253	17
+	+	242	13
+	+	251	12
+	+	244	16
+	+	253	16
+	+	235	16
+	+	251	12
+	+	242	12
+	+	235	0
+	+	242	12
+	+	235	12
+	+	244	16
+	+	253	16
+	+	242	12
+	+	251	12
+	+	242	0
+	+	244	0
+	+	235	12
+	+	244	16
+	+	253	16
+	+	244	16
+	+	235	0
+	+	236	0
+
+> ~/.bash_profile
+	*	1589974317	0
+	"	1	0
+
+> ~/.bashrc
+	*	1589974300	0
+	"	1	0
+
+> ~/.fehbg
+	*	1589974288	0
+	"	1	0
 
 > ~/.config/betterlockscreenrc
 	*	1589911728	0
@@ -571,95 +913,6 @@ $
 	+	24	20
 	+	15	14
 
-> ~/.zshrc
-	*	1589905214	0
-	"	60	0
-	^	60	0
-	.	49	40
-	+	142	1
-	+	143	25
-	+	154	0
-	+	139	0
-	+	137	19
-	+	139	12
-	+	10	22
-	+	16	0
-	+	67	0
-	+	117	17
-	+	10	19
-	+	5	0
-	+	10	0
-	+	85	0
-	+	84	1
-	+	5	0
-	+	10	0
-	+	63	1
-	+	5	0
-	+	85	0
-	+	86	0
-	+	85	0
-	+	86	0
-	+	5	0
-	+	10	16
-	+	5	19
-	+	5	31
-	+	48	0
-	+	49	1
-	+	50	0
-	+	52	0
-	+	53	0
-	+	54	0
-	+	62	0
-	+	63	0
-	+	2	0
-	+	5	31
-	+	49	0
-	+	48	0
-	+	63	0
-	+	5	0
-	+	10	0
-	+	5	0
-	+	23	0
-	+	26	0
-	+	44	0
-	+	67	0
-	+	98	0
-	+	142	38
-	+	5	0
-	+	86	0
-	+	85	0
-	+	122	0
-	+	103	92
-	+	103	0
-	+	104	51
-	+	105	0
-	+	110	0
-	+	109	25
-	+	141	0
-	+	142	0
-	+	140	66
-	+	49	40
-
-> ~/.vimrc
-	*	1589905081	0
-	"	3	11
-	^	3	12
-	.	3	11
-	+	8	24
-	+	32	25
-	+	30	16
-	+	32	26
-	+	30	36
-	+	34	8
-	+	47	0
-	+	9	0
-	+	16	8
-	+	3	11
-	+	5	20
-	+	5	0
-	+	4	16
-	+	3	11
-
 > ~/.yarnrc
 	*	1589904952	0
 	"	1	0
@@ -691,15 +944,6 @@ $
 	+	1	0
 	+	17	28
 
-> ~/.profile
-	*	1589902337	0
-	"	5	1
-	^	5	2
-	.	5	1
-	+	5	54
-	+	5	0
-	+	5	1
-
 > /usr/share/themes/minarch/openbox-3/themerc
 	*	1589898982	0
 	"	118	2
@@ -711,16 +955,6 @@ $
 > ~/.cfg/COMMIT_EDITMSG
 	*	1589889709	0
 	"	1	0
-
-> ~/README.md
-	*	1589889638	0
-	"	8	8
-	^	8	9
-	.	9	0
-	+	7	23
-	+	8	8
-	+	6	16
-	+	9	0
 
 > ~/.cache/yay/pistol-git/PKGBUILD
 	*	1589888608	0
@@ -767,21 +1001,6 @@ $
 	+	704	0
 	+	705	0
 	+	10	38
-
-> ~/.config/Debauchee/Barrier.conf
-	*	1589822534	0
-	"	2	15
-	^	2	16
-	.	2	15
-	+	11	0
-	+	2	15
-
-> /etc/hosts
-	*	1589822433	0
-	"	4	17
-	^	4	18
-	.	4	17
-	+	4	17
 
 > ~/.config/vis/config
 	*	1589819911	0
@@ -1070,10 +1289,6 @@ $
 	*	1589725964	0
 	"	108	0
 
-> ~/.zsh
-	*	1589724423	0
-	"	1	0
-
 > ~/.config/polybar/scripts/check-network
 	*	1589714189	0
 	"	12	0
@@ -1148,15 +1363,6 @@ $
 > .config/polybar/config.ini
 	*	1589642830	0
 	"	1	0
-
-> ~/.config/openbox/menu.xml
-	*	1589627548	0
-	"	1	0
-	.	80	0
-	+	1	0
-	+	129	0
-	+	203	0
-	+	80	0
 
 > ~/.screenrc
 	*	1589626131	0
@@ -1243,71 +1449,4 @@ $
 
 > ~/.config/networkmanager-dmenu/config.ini
 	*	1589566862	0
-	"	1	0
-
-> ~/.config/obmenu-generator/config.pl
-	*	1589566807	0
-	"	59	0
-
-> ~/.config/rofi/bin/launcher
-	*	1589566709	0
-	"	1	0
-
-> /etc/hosts.atm
-	*	1589566691	0
-	"	1	0
-
-> /etc/host.conf
-	*	1589566674	0
-	"	1	0
-
-> /etc/hostname
-	*	1589566657	0
-	"	1	0
-
-> ~/.config/rofi/bin/network
-	*	1589566624	0
-	"	1	0
-	^	46	54
-	.	46	54
-	+	22	31
-	+	46	54
-
-> ~/.config/rofi/themes/network.rasi
-	*	1589566527	0
-	"	6	23
-	^	6	24
-	.	6	24
-	+	1	0
-	+	4	0
-	+	3	41
-	+	67	42
-	+	3	59
-	+	82	36
-	+	4	40
-	+	5	25
-	+	6	24
-
-> bin/network
-	*	1589566263	0
-	"	1	0
-
-> ~/.config/rofi/themes/networkmenu.rasi
-	*	1589566135	0
-	"	4	21
-	^	4	22
-	.	3	39
-	+	1	0
-	+	2	59
-	+	66	42
-	+	2	60
-	+	81	36
-	+	98	36
-	+	81	36
-	+	82	39
-	+	2	59
-	+	3	39
-
-> themes/network.rasi
-	*	1589565975	0
 	"	1	0

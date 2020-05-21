@@ -8,7 +8,7 @@ exec picom -b &
 sh ~/.config/polybar/launch.sh
 
 ## Start Music Player Daemon
-exec mpd &
+# exec mpd &
 
 ## Notification Daemon
 exec dunst &
@@ -25,6 +25,8 @@ xfsettingsd &
 
 ## Enable power management
 xfce4-power-manager &
+
+/usr/bin/barrier -f --no-tray -d INFO -l ~/.cache/barrier.log --name archlinux --enable-crypto pc:24800 &
 
 ## About
 #sleep 4 && /usr/local/bin/about.sh
