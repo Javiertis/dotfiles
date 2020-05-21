@@ -43,13 +43,17 @@ set statusline+=%=\
 set statusline+=%3*\ %c\:\%l\/\%L\ %2*\ line\ 
 set scrolloff=8
 " MAPPING
+imap <F3> <Esc>:set invnumber<CR>a
 let mapleader=' '
 cmap w!! w !sudo tee > /dev/null %
+nnoremap <leader>h :split<Space>
+nnoremap <leader>v :vsplit<Space>
+nnoremap <leader>q :wq<CR>
 nnoremap <tab>   <c-w>w
 nnoremap <S-tab> <c-w>W
 nnoremap <C-s> :%s//gI<Left><Left><Left>
 nmap <leader>w :w<CR> 
-nmap <C-_> :noh<CR>
+nma:p <C-_> :noh<CR>
 nmap <S-Left> v<Left>
 nmap <S-Right> v<Right>
 nmap <C-Up> 8k
