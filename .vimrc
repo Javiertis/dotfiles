@@ -5,17 +5,17 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-surround'
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
-  Plug 'tomasiser/vim-code-dark'
+  Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
 call plug#end()
 " CONFIG
 noh
 syntax on
-set t_Co=256
+set termguicolors
 set nocompatible
 set showcmd
 set ruler
 set number relativenumber
-set cursorline
+" set cursorline
 " set cursorcolumn
 set expandtab
 set mouse=a
@@ -99,5 +99,9 @@ hi user1 ctermbg=1 ctermfg=0
 hi user2 ctermbg=4 ctermfg=0
 hi user3 ctermbg=0 ctermfg=NONE
 hi user4 ctermbg=NONE ctermfg=NONE
-hi group1 ctermbg=NONE ctermfg=0 
+hi group1 ctermbg=NONE ctermfg=0
+autocmd colorscheme * hi clear cursorline
 match group1 /\t/
+
+let g:Hexokinase_refreshEvents=[ 'TextChanged' ]
+let g:Hexokinase_highlighters = [ 'backgroundfull' ]

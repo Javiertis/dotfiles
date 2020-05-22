@@ -17,22 +17,30 @@
 $
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:wq
+|2,0,1590160770,,"wq"
+: q
+|2,0,1590160357,," q"
+:q
+|2,0,1590159723,,"q"
+:PlugInstall
+|2,0,1590159459,,"PlugInstall"
+:HexokinaseTurnOn
+|2,0,1590159381,,"HexokinaseTurnOn"
+:<F4>
+|2,0,1590159260,,"<F4>"
+:w
+|2,0,1590085098,,"w"
+:Wq
+|2,0,1590084814,,"Wq"
 :vsplit 
 |2,0,1590083240,,"vsplit "
 :vsplit prueba
 |2,0,1590083214,,"vsplit prueba"
-:wq
-|2,0,1590083199,,"wq"
-:q
-|2,0,1590083127,,"q"
 :split 
 |2,0,1590083067,,"split "
-:PlugInstall
-|2,0,1590082768,,"PlugInstall"
 :i
 |2,0,1590081004,,"i"
-:w
-|2,0,1590080116,,"w"
 :Q
 |2,0,1590079563,,"Q"
 :q!
@@ -205,278 +213,289 @@ $
 # Historia de Debug Line (de lo más nuevo a lo más antiguo):
 
 # Registros:
-"0	LINE	0
-	set cursorline
-|3,0,0,1,1,0,1590080997,"set cursorline"
-""1	LINE	0
-	es to es una prueesba fasdf jalksdhjfl kansdfj,bnalskdjf
-|3,1,1,1,1,0,1590083217,"es to es una prueesba fasdf jalksdhjfl kansdfj,bnalskdjf"
+"0	CHAR	0
+	t
+|3,0,0,0,1,0,1590084241,"t"
+"1	LINE	0
+	set t_Co
+|3,0,1,1,1,0,1590160367,"set t_Co"
 "2	LINE	0
-	imap <F3> <Esc>:set invnumber<CR>a
-|3,0,2,1,1,0,1590081971,"imap <F3> <Esc>:set invnumber<CR>a"
-"3	LINE	0
-	nmap <F3> :set invnumber<CR>
-|3,0,3,1,1,0,1590081799,"nmap <F3> :set invnumber<CR>"
-"4	LINE	0
-	set showmode
-|3,0,4,1,1,0,1590081722,"set showmode"
-"5	LINE	0
-	set termguicolors
-|3,0,5,1,1,0,1590081686,"set termguicolors"
-"6	LINE	0
-	set cursorline
-|3,0,6,1,1,0,1590080829,"set cursorline"
-"7	LINE	0
+	  Plug 'tomasiser/vim-code-dark'
+|3,0,2,1,1,0,1590160086,"  Plug 'tomasiser/vim-code-dark'"
+"3	CHAR	0
+	#CFD8DC
 	
-|3,0,7,1,1,0,1590079891,""
-"8	LINE	0
-	apple  = red
-	grass += green
-	sky   -= blue
-|3,0,8,1,3,0,1590078993,"apple  = red","grass += green","sky   -= blue"
+|3,0,3,0,2,0,1590158254,"#CFD8DC",""
+"4	CHAR	0
+	public class Prueba {
+	    public static void main(String[] args){
+	        String prueba = "patita";
+	        for (int i=0; i<10; i++) System.out.println(prueba);
+	    }
+	}
+|3,0,4,0,6,0,1590085269,"public class Prueba {","    public static void main(String[] args){","        String prueba = \"patita\";","        for (int i=0; i<10; i++) System.out.println(prueba);","    }","}"
+"5	CHAR	0
+	public class Prueba {
+	    public static void main(String[] args){
+	        String prueba = "patita";
+	        for (int i=0; i<10; i++) System.out.println(prueba);
+	    }
+	}
+|3,0,5,0,6,0,1590085269,"public class Prueba {","    public static void main(String[] args){","        String prueba = \"patita\";","        for (int i=0; i<10; i++) System.out.println(prueba);","    }","}"
+"6	LINE	0
+	
+|3,0,6,1,1,0,1590084422,""
+"7	LINE	0
+	        String prueba = "patita";
+|3,0,7,1,1,0,1590084412,"        String prueba = \"patita\";"
+"8	CHAR	0
+	String prueba = "patita";
+	
+|3,0,8,0,2,0,1590084379,"String prueba = \"patita\";",""
 "9	LINE	0
-	apple  = red
-	grass += green
-	sky   -= blue
-|3,0,9,1,3,0,1590078777,"apple  = red","grass += green","sky   -= blue"
+	
+|3,0,9,1,1,0,1590084342,""
 "a@	CHAR	0
 	xj
 |3,2,10,0,1,0,1589900936,"xj"
-"-	CHAR	0
-	rk
-|3,0,36,0,1,0,1590081666,"rk"
+"c	CHAR	0
+	a
+|3,0,12,0,1,0,1590084217,"a"
+""-	CHAR	0
+	, 'BufWrite', 'BufRead'
+|3,1,36,0,1,0,1590161255,", 'BufWrite', 'BufRead'"
 
 # Marcas en el archivo:
-'0  10  7  ~/.vimrc
-|4,48,10,7,1590083413,"~/.vimrc"
-'1  81  4  ~/.vimrc
-|4,49,81,4,1590083405,"~/.vimrc"
-'2  82  4  ~/.vimrc
-|4,50,82,4,1590083405,"~/.vimrc"
-'3  80  8  ~/.vimrc
-|4,51,80,8,1590083347,"~/.vimrc"
-'4  81  8  ~/.vimrc
-|4,52,81,8,1590083347,"~/.vimrc"
-'5  81  8  ~/.vimrc
-|4,53,81,8,1590083321,"~/.vimrc"
-'6  80  8  ~/.vimrc
-|4,54,80,8,1590083321,"~/.vimrc"
-'7  82  8  ~/.vimrc
-|4,55,82,8,1590083321,"~/.vimrc"
-'8  81  8  ~/.vimrc
-|4,56,81,8,1590083321,"~/.vimrc"
-'9  51  25  ~/.vimrc
-|4,57,51,25,1590083199,"~/.vimrc"
+'0  107  0  ~/.vimrc
+|4,48,107,0,1590161297,"~/.vimrc"
+'1  2  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,49,2,0,1590161279,"~/.themes/minarch_mod/openbox-3/themerc"
+'2  107  2  ~/.vimrc
+|4,50,107,2,1590161269,"~/.vimrc"
+'3  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,51,1,0,1590161201,"~/.themes/minarch_mod/openbox-3/themerc"
+'4  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,52,1,0,1590161201,"~/.themes/minarch_mod/openbox-3/themerc"
+'5  106  59  ~/.vimrc
+|4,53,106,59,1590161192,"~/.vimrc"
+'6  106  59  ~/.vimrc
+|4,54,106,59,1590161192,"~/.vimrc"
+'7  106  59  ~/.vimrc
+|4,55,106,59,1590161192,"~/.vimrc"
+'8  106  59  ~/.vimrc
+|4,56,106,59,1590161192,"~/.vimrc"
+'9  46  37  ~/.themes/minarch_mod/openbox-3/themerc
+|4,57,46,37,1590161166,"~/.themes/minarch_mod/openbox-3/themerc"
 
 # Lista de saltos (el más reciente va primero):
--'  10  7  ~/.vimrc
-|4,39,10,7,1590083413,"~/.vimrc"
+-'  107  0  ~/.vimrc
+|4,39,107,0,1590161297,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1590083407,"~/.vimrc"
--'  81  4  ~/.vimrc
-|4,39,81,4,1590083405,"~/.vimrc"
--'  82  4  ~/.vimrc
-|4,39,82,4,1590083405,"~/.vimrc"
+|4,39,1,0,1590161283,"~/.vimrc"
+-'  2  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,2,0,1590161279,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  2  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,2,0,1590161279,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590161277,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590161277,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  107  2  ~/.vimrc
+|4,39,107,2,1590161269,"~/.vimrc"
+-'  107  2  ~/.vimrc
+|4,39,107,2,1590161269,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1590083348,"~/.vimrc"
--'  80  8  ~/.vimrc
-|4,39,80,8,1590083347,"~/.vimrc"
--'  81  8  ~/.vimrc
-|4,39,81,8,1590083347,"~/.vimrc"
+|4,39,1,0,1590161204,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1590083322,"~/.vimrc"
--'  81  8  ~/.vimrc
-|4,39,81,8,1590083321,"~/.vimrc"
+|4,39,1,0,1590161204,"~/.vimrc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590161201,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590161201,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590161201,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590161201,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  106  59  ~/.vimrc
+|4,39,106,59,1590161192,"~/.vimrc"
+-'  106  59  ~/.vimrc
+|4,39,106,59,1590161192,"~/.vimrc"
+-'  106  59  ~/.vimrc
+|4,39,106,59,1590161192,"~/.vimrc"
+-'  106  59  ~/.vimrc
+|4,39,106,59,1590161192,"~/.vimrc"
+-'  106  59  ~/.vimrc
+|4,39,106,59,1590161192,"~/.vimrc"
+-'  106  59  ~/.vimrc
+|4,39,106,59,1590161192,"~/.vimrc"
+-'  106  59  ~/.vimrc
+|4,39,106,59,1590161192,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1590083200,"~/.vimrc"
--'  51  25  ~/.vimrc
-|4,39,51,25,1590083199,"~/.vimrc"
--'  50  25  ~/.vimrc
-|4,39,50,25,1590083199,"~/.vimrc"
--'  52  25  ~/.vimrc
-|4,39,52,25,1590083199,"~/.vimrc"
--'  51  25  ~/.vimrc
-|4,39,51,25,1590083199,"~/.vimrc"
--'  51  25  ~/.vimrc
-|4,39,51,25,1590083199,"~/.vimrc"
--'  51  25  ~/.vimrc
-|4,39,51,25,1590083199,"~/.vimrc"
+|4,39,1,0,1590161168,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1590083036,"~/.vimrc"
--'  32  0  ~/.vimrc
-|4,39,32,0,1590083035,"~/.vimrc"
--'  31  0  ~/.vimrc
-|4,39,31,0,1590083035,"~/.vimrc"
--'  33  0  ~/.vimrc
-|4,39,33,0,1590083035,"~/.vimrc"
--'  32  0  ~/.vimrc
-|4,39,32,0,1590083035,"~/.vimrc"
--'  32  0  ~/.vimrc
-|4,39,32,0,1590083035,"~/.vimrc"
--'  32  0  ~/.vimrc
-|4,39,32,0,1590083035,"~/.vimrc"
--'  32  0  ~/.vimrc
-|4,39,32,0,1590083035,"~/.vimrc"
+|4,39,1,0,1590161168,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1590082542,"~/.vimrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  1  15  ~/.zshrc
-|4,39,1,15,1590082471,"~/.zshrc"
--'  45  0  ~/.vimrc
-|4,39,45,0,1590081994,"~/.vimrc"
--'  44  0  ~/.vimrc
-|4,39,44,0,1590081994,"~/.vimrc"
--'  46  0  ~/.vimrc
-|4,39,46,0,1590081994,"~/.vimrc"
--'  45  0  ~/.vimrc
-|4,39,45,0,1590081994,"~/.vimrc"
--'  45  0  ~/.vimrc
-|4,39,45,0,1590081994,"~/.vimrc"
--'  45  0  ~/.vimrc
-|4,39,45,0,1590081994,"~/.vimrc"
--'  45  0  ~/.vimrc
-|4,39,45,0,1590081994,"~/.vimrc"
--'  45  0  ~/.vimrc
-|4,39,45,0,1590081994,"~/.vimrc"
--'  45  0  ~/.vimrc
-|4,39,45,0,1590081994,"~/.vimrc"
--'  77  14  ~/.vimrc
-|4,39,77,14,1590081952,"~/.vimrc"
--'  79  14  ~/.vimrc
-|4,39,79,14,1590081952,"~/.vimrc"
+|4,39,1,0,1590161168,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590161168,"~/.vimrc"
+-'  46  37  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,46,37,1590161166,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  46  37  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,46,37,1590161166,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  46  37  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,46,37,1590161166,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  46  37  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,46,37,1590161166,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  46  37  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,46,37,1590161166,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  46  37  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,46,37,1590161166,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  46  37  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,46,37,1590161166,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  46  37  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,46,37,1590161166,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  46  37  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,46,37,1590161166,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  46  37  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,46,37,1590161166,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  46  37  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,46,37,1590161166,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  46  37  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,46,37,1590161166,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  46  37  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,46,37,1590161166,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  46  37  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,46,37,1590161166,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590161123,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590161123,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590161123,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590161123,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590161123,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590161123,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590161123,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590161123,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590161123,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590161123,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590161123,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590161123,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590161123,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590161123,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590161096,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590161096,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590161096,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590161096,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590161096,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590161096,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590161096,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590161096,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  106  48  ~/.vimrc
+|4,39,106,48,1590161094,"~/.vimrc"
+-'  106  48  ~/.vimrc
+|4,39,106,48,1590161094,"~/.vimrc"
+-'  106  48  ~/.vimrc
+|4,39,106,48,1590161094,"~/.vimrc"
+-'  106  48  ~/.vimrc
+|4,39,106,48,1590161094,"~/.vimrc"
+-'  106  48  ~/.vimrc
+|4,39,106,48,1590161094,"~/.vimrc"
+-'  106  48  ~/.vimrc
+|4,39,106,48,1590161094,"~/.vimrc"
+-'  106  48  ~/.vimrc
+|4,39,106,48,1590161094,"~/.vimrc"
+-'  106  48  ~/.vimrc
+|4,39,106,48,1590161094,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590160820,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590160820,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590160820,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590160820,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590160820,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590160820,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590160820,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1590160820,"~/.vimrc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590160816,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590160816,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590160816,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590160816,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590160816,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590160816,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590160816,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590160816,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590160816,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590160816,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590160816,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590160816,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590160816,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590160816,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590160816,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  37  30  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,37,30,1590160816,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590160773,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590160773,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590160773,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590160773,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590160773,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590160773,"~/.themes/minarch_mod/openbox-3/themerc"
+-'  1  0  ~/.themes/minarch_mod/openbox-3/themerc
+|4,39,1,0,1590160773,"~/.themes/minarch_mod/openbox-3/themerc"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
 
 > ~/.vimrc
-	*	1590083413	0
-	"	10	7
-	^	10	8
-	.	11	0
+	*	1590161297	0
+	"	107	0
+	^	106	45
+	.	106	44
 	+	17	24
 	+	43	25
 	+	41	16
@@ -489,7 +508,7 @@ $
 	+	13	11
 	+	15	20
 	+	15	0
-	+	14	16
+	+	13	16
 	+	13	11
 	+	45	8
 	+	10	7
@@ -526,15 +545,15 @@ $
 	+	55	13
 	+	6	0
 	+	21	10
-	+	14	16
+	+	13	16
 	+	13	0
 	+	8	31
 	+	5	1
 	+	4	1
 	+	3	1
 	+	102	32
-	+	103	0
-	+	14	0
+	+	104	0
+	+	13	0
 	+	15	0
 	+	66	11
 	+	68	8
@@ -551,10 +570,65 @@ $
 	+	56	3
 	+	81	5
 	+	11	0
+	+	13	16
+	+	6	0
+	+	9	0
+	+	8	56
+	+	107	44
+	+	103	40
+	+	8	0
+	+	18	1
+	+	13	0
+	+	8	0
+	+	107	48
+	+	106	44
+
+> ~/.themes/minarch_mod/openbox-3/themerc
+	*	1590161278	0
+	"	2	0
+	^	37	31
+	.	37	0
+	+	9	59
+	+	9	0
+	+	132	36
+	+	129	32
+	+	129	39
+	+	130	0
+	+	132	36
+	+	1	0
+	+	17	28
+	+	108	0
+	+	106	0
+	+	65	48
+	+	37	0
+
+> ~/java.java
+	*	1590085993	0
+	"	1	0
+
+> ~/java.
+	*	1590085985	0
+	"	1	0
+
+> ~/Prueba.java
+	*	1590085274	0
+	"	5	0
+	^	5	1
+	.	5	0
+	+	1	0
+	+	1	6
+	+	1	0
+	+	1	19
+	+	1	11
+	+	1	66
+	+	1	27
+	+	1	0
+	+	1	11
+	+	5	0
 
 > ~/prueba
-	*	1590083223	0
-	"	1	21
+	*	1590085075	0
+	"	1	0
 	^	1	22
 	.	1	21
 	+	1	11
@@ -564,6 +638,44 @@ $
 	+	1	12
 	+	2	11
 	+	1	21
+
+> ~/prueba.java
+	*	1590084481	0
+	"	7	41
+	^	7	37
+	.	7	36
+	+	1	19
+	+	1	20
+	+	2	4
+	+	10	0
+	+	2	34
+	+	7	12
+	+	3	7
+	+	2	8
+	+	2	0
+	+	2	4
+	+	2	0
+	+	2	40
+	+	7	0
+	+	3	8
+	+	7	0
+	+	7	12
+	+	7	32
+	+	4	25
+	+	7	17
+	+	9	0
+	+	7	12
+	+	7	0
+	+	2	0
+	+	10	0
+	+	9	0
+	+	4	8
+	+	6	0
+	+	4	8
+	+	6	0
+	+	5	0
+	+	8	0
+	+	7	36
 
 > ~/.zshrc
 	*	1590082469	0
@@ -945,21 +1057,6 @@ $
 > ~/.themes/minarch_mod/openbox-3/desk.xbm
 	*	1589902729	0
 	"	4	7
-
-> ~/.themes/minarch_mod/openbox-3/themerc
-	*	1589902612	0
-	"	67	0
-	^	17	29
-	.	17	28
-	+	9	59
-	+	9	0
-	+	132	36
-	+	129	32
-	+	129	39
-	+	130	0
-	+	132	36
-	+	1	0
-	+	17	28
 
 > /usr/share/themes/minarch/openbox-3/themerc
 	*	1589898982	0
@@ -1451,19 +1548,3 @@ $
 	^	5	40
 	.	5	40
 	+	5	40
-
-> ~/.config/openbox/bin/askpass
-	*	1589568553	0
-	"	1	0
-
-> ~/.config/openbox/bin/styles.sh
-	*	1589568528	0
-	"	1	0
-
-> ~/.hushlogin
-	*	1589568042	0
-	"	1	0
-
-> ~/.config/networkmanager-dmenu/config.ini
-	*	1589566862	0
-	"	1	0

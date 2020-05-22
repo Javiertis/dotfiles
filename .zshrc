@@ -143,3 +143,4 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 alias upKeymap='setxkbmap es nodeadkeys'
 alias upBarrier='/usr/bin/barrierc -f --no-tray -d INFO -l ~/.cache/barrier.log --name archlinux --enable-crypto pc:24800'
+alias confCommit='config commit -a -m'
