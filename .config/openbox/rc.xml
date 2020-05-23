@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <resistance>
     <strength>10</strength>
@@ -106,6 +105,12 @@
       <action name="GoToDesktop">
         <to>1</to>
       </action>
+    </keybind>
+    <keybind key="A-q">
+      <action name="NextWindow"/>
+      <action name="Focus"/>
+      <action name="Close"/>
+      <action name="PreviousWindow"/>
     </keybind>
     <keybind key="W-2">
       <action name="GoToDesktop">
@@ -358,6 +363,11 @@
     <keybind key="A-Print">
       <action name="Execute">
         <command>scrot -d 5 'Screenshot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f'</command>
+      </action>
+    </keybind>
+    <keybind key="W-a">
+      <action name="Execute">
+        <command>rofimoji</command>
       </action>
     </keybind>
     <keybind key="W-e">

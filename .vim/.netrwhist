@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/javiertis/.config/rofi/bin'
+let g:netrw_dirhist_4='/home/javiertis/bin'
 let g:netrw_dirhist_3='/home/javiertis/.vim/plugged/vim-airline-themes/autoload/airline/themes'
 let g:netrw_dirhist_2='/home/javiertis/.vim/plugged/vim-airline-themes/autoload/airline'
 let g:netrw_dirhist_1='/home/javiertis/.vim/plugged/vim-airline-themes/autoload'
@@ -8,5 +10,3 @@ let g:netrw_dirhist_9='/home/javiertis/.vim/plugged/vim-code-dark/colors'
 let g:netrw_dirhist_8='/home/javiertis/.vim/plugged/vim-code-dark'
 let g:netrw_dirhist_7='/home/javiertis'
 let g:netrw_dirhist_6='/home/javiertis/.config/Debauchee'
-let g:netrw_dirhist_5='/home/javiertis/.config/polybar'
-let g:netrw_dirhist_4='/home/javiertis/.config/neofetch'

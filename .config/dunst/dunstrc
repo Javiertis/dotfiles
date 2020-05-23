@@ -1,9 +1,9 @@
 [global]
 monitor = 0
 follow = mouse
-geometry = "250x50-10+38"
+geometry = "250x50-10-10"
 transparency = 5
-corner_radius = 25
+corner_radius = 0
 indicate_hidden = yes
 shrink = no
 separator_height = 4
@@ -40,19 +40,19 @@ history = ctrl+grave
 context = ctrl+shift+period
 
 [urgency_low]
-timeout = 2
-background = "#212B30"
-foreground = "#C4C7C5"
-frame_color = "#4DD0E1"
+timeout = 3
+background = "#2B303C"
+foreground = "#76BADE"
+frame_color = "#8787FF"
 
 [urgency_normal]
 timeout = 5
-background = "#212B30"
-foreground = "#C4C7C5"
-frame_color = "#4DD0E1"
+background = "#2B303C"
+foreground = "#76BADE"
+frame_color = "#8787FF"
 
 [urgency_critical]
 timeout = 0
-background = "#212B30"
+background = "#2B303C"
 foreground = "#EC407A"
 frame_color = "#EC407A"

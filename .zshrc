@@ -146,3 +146,4 @@ alias upBarrier='/usr/bin/barrierc -f --no-tray -d INFO -l ~/.cache/barrier.log 
 alias confCommit='config commit -a -m'
 alias evim='vim .vimrc'
 alias etheme='vim ~/.themes/minarch_mod/openbox-3/themerc'
+alias CC='clearcache.sh'
