@@ -10,11 +10,11 @@ rofi_command="rofi -theme themes/powermenu.rasi"
 uptime=$(uptime -p | sed -e 's/up //g')
 
 # Options
-shutdown=" Shutdown"
-reboot=" Restart"
-lock=" Lock"
-suspend=" Sleep"
-logout=" Logout"
+shutdown="  Apagar"
+reboot="  Reinciar"
+lock="  Bloquear"
+suspend="  Suspender"
+logout="  Cerrar Sesion"
 
 # Variable passed to rofi
 options="$lock\n$suspend\n$logout\n$reboot\n$shutdown"
@@ -42,7 +42,7 @@ case $chosen in
         fi
         ;;
     $lock)
-        i3lock
+        betterlockscreen -l dimxblur
         ;;
     $suspend)
 		ans=$($HOME/.config/openbox/bin/confirm.sh)

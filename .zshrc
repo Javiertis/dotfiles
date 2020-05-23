@@ -18,11 +18,11 @@ stty stop undef
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
+CASE_SENSITIVE="false"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
- HYPHEN_INSENSITIVE="true"
+ HYPHEN_INSENSITIVE="false"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
  DISABLE_AUTO_UPDATE="true"
@@ -144,3 +144,5 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias upKeymap='setxkbmap es nodeadkeys'
 alias upBarrier='/usr/bin/barrierc -f --no-tray -d INFO -l ~/.cache/barrier.log --name archlinux --enable-crypto pc:24800'
 alias confCommit='config commit -a -m'
+alias evim='vim .vimrc'
+alias etheme='vim ~/.themes/minarch_mod/openbox-3/themerc'

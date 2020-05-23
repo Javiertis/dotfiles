@@ -6,11 +6,14 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
   Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
+  Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 " CONFIG
 noh
 syntax on
+set autoindent
 set termguicolors
+
 set nocompatible
 set showcmd
 set ruler
@@ -26,6 +29,7 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
+set noshowmode 
 set encoding=utf-8
 set modelines=0
 set formatoptions=tqn1
@@ -103,5 +107,8 @@ hi group1 ctermbg=NONE ctermfg=0
 autocmd colorscheme * hi clear cursorline
 match group1 /\t/
 
-let g:Hexokinase_refreshEvents=[ 'TextChanged' ]
+let g:Hexokinase_refreshEvents=[ 'BufRead', 'BufWrite', 'TextChanged' ]
 let g:Hexokinase_highlighters = [ 'backgroundfull' ]
+
+let g:airline_theme = 'violet'
+let g:airline_powerline_fonts = 1
