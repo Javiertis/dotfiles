@@ -1,7 +1,7 @@
 * {
-    background-color:    #212B30ff;
-    text-color:    #4DD0E1ff;
-    passwd:    #EC407Aff;
+    background-color:    #2b303CCC;
+    text-color:    #76BADEFF;
+    passwd:    #9090FFFF;
     font:            	"DejaVu Sans Book 9";
 }
 

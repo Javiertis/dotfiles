@@ -179,21 +179,16 @@
 					<command>xfce4-settings-manager</command>
 				</action>
 			</item>
-			<separator/>
-			<item label="About Developer">
-				<action name="Execute">
-					<execute>about.sh</execute>
-				</action>
-			</item>
 		</menu>
 		<menu execute="ob-kb-pipemenu" id="keybinds" label="Atajos de teclado"/>
 		<separator/>
-		<item label="Bloquear">
-			<action name="Execute">
-				<command>i3lock</command>
-			</action>
-		</item>
+		
 		<menu id="obExit" label="Salir">
+				<item label="Bloquear">
+					<action name="Execute">
+						<command>betterlockscreen -l dimxblur</command>
+					</action>
+				</item>
 				<item label="Cerrar sesión">
 					<action name="Execute">
 						<command>~/.config/openbox/bin/powermenu --logout</command>
