@@ -1,4 +1,6 @@
 o W-1             	GoToDesktop
+o C-W-Right       	DesktopNext
+o C-W-Left        	DesktopPrevious
 o W-2             	GoToDesktop
 o W-3             	GoToDesktop
 o W-4             	GoToDesktop
@@ -34,7 +36,7 @@ o W-S-Right       	SendToDesktopRight
 x XF86AudioRaiseVolume	~/.config/openbox/bin/volume-up
 x XF86AudioLowerVolume	~/.config/openbox/bin/volume-down
 x XF86AudioMute   	amixer sset Master toggle
-x Launch3         	termite -e alsamixer
+x W-z             	termite --exec='alsamixer --card=0'
 x XF86AudioStop   	playerctl stop
 x XF86AudioPlay   	playerctl play-pause
 x XF86AudioPrev   	playerctl previous
@@ -43,6 +45,7 @@ x XF86MonBrightnessUp	~/.config/openbox/bin/backlight-up
 x XF86MonBrightnessDown	~/.config/openbox/bin/backlight-down
 x Print           	scrot 'Screenshot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f'
 x A-Print         	scrot -d 5 'Screenshot_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; viewnior $$(xdg-user-dir PICTURES)/$f'
+x W-a             	rofimoji
 x W-e             	geany
 x W-f             	thunar
 x W-t             	termite

@@ -7,8 +7,6 @@ exec picom -b &
 ## Launch Polybar
 sh ~/.config/polybar/launch.sh
 
-## Start Music Player Daemon
-# exec mpd &
 
 ## Notification Daemon
 exec dunst &
@@ -28,5 +26,6 @@ xfce4-power-manager &
 
 /usr/bin/barrier -f --no-tray -d INFO -l ~/.cache/barrier.log --name archlinux --enable-crypto pc:24800 &
 
-## About
-#sleep 4 && /usr/local/bin/about.sh
+spotify &
+
+upKeymap &

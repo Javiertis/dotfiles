@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <resistance>
     <strength>10</strength>
@@ -18,7 +19,6 @@
     <primaryMonitor>Mouse</primaryMonitor>
   </placement>
   <theme>
-	  
     <name>minarch_mod</name>
     <titleLayout>NLMC</titleLayout>
     <keepBorder>no</keepBorder>
@@ -89,12 +89,12 @@
   </margins>
   <dock>
     <position>BottomRight</position>
-    <floatingX>0</floatingX>
-    <floatingY>0</floatingY>
-    <noStrut>no</noStrut>
-    <stacking>Above</stacking>
+    <floatingX>12</floatingX>
+    <floatingY>18</floatingY>
+    <noStrut>yes</noStrut>
+    <stacking>Below</stacking>
     <direction>Vertical</direction>
-    <autoHide>no</autoHide>
+    <autoHide>yes</autoHide>
     <hideDelay>300</hideDelay>
     <showDelay>300</showDelay>
     <moveButton>Middle</moveButton>
@@ -107,8 +107,11 @@
         <to>1</to>
       </action>
     </keybind>
-    <keybind key="A-q">
-      <action name="ToggleDockAutohide"/>
+    <keybind key="C-W-Right">
+      <action name="DesktopNext"/>
+    </keybind>
+    <keybind key="C-W-Left">
+      <action name="DesktopPrevious"/>
     </keybind>
     <keybind key="W-2">
       <action name="GoToDesktop">
@@ -318,9 +321,9 @@
         <command>amixer sset Master toggle</command>
       </action>
     </keybind>
-    <keybind key="Launch3">
+    <keybind key="W-z">
       <action name="Execute">
-        <command>termite -e alsamixer</command>
+        <command>termite --exec='alsamixer --card=0'</command>
       </action>
     </keybind>
     <keybind key="XF86AudioStop">
@@ -861,6 +864,9 @@
     </application>
     <application title="MPlayer">
       <decor>no</decor>
+    </application>
+    <application name="spotify*">
+      <desktop>5</desktop>
     </application>
     <!--
 

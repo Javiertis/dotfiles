@@ -109,6 +109,15 @@ match group1 /\t/
 
 let g:Hexokinase_refreshEvents=[ 'BufRead', 'BufWrite', 'TextChanged' ]
 let g:Hexokinase_highlighters = [ 'backgroundfull' ]
+let g:Hexokinase_optInPatterns = [
+\     'full_hex',
+\     'triple_hex',
+\     'rgb',
+\     'rgba',
+\     'hsl',
+\     'hsla',
+\     'colour_names'
+\ ]
 
 let g:airline_theme = 'violet'
 let g:airline_powerline_fonts = 1

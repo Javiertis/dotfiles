@@ -8,6 +8,7 @@
 rofi_command="rofi -theme themes/powermenu.rasi"
 
 uptime=$(uptime -p | sed -e 's/up //g')
+#sleep 4 && /usr/local/bin/about.sh
 
 # Options
 shutdown="  Apagar"
@@ -19,7 +20,7 @@ logout="  Cerrar Sesion"
 # Variable passed to rofi
 options="$lock\n$suspend\n$logout\n$reboot\n$shutdown"
 
-chosen="$(echo -e "$options" | $rofi_command -p "UP - $uptime" -dmenu -selected-row 0)"
+chosen="$(echo -e "$options" | $rofi_command -p "$uptime" -dmenu -selected-row 0)"
 case $chosen in
     $shutdown)
 		ans=$($HOME/.config/openbox/bin/confirm.sh)
