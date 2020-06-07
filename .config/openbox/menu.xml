@@ -140,18 +140,6 @@
 				</item>
 			</menu>
 			<menu execute="ob-compositor" id="CompositingPipeMenu" label="Picom"/>
-			<menu id="style101" label="Cambiar modo...">
-				<item label="Oscuro">
-					<action name="Execute">
-						<command>~/.config/openbox/bin/styles.sh --Dark</command>
-					</action>
-				</item>
-				<item label="Claro">
-					<action name="Execute">
-						<command>~/.config/openbox/bin/styles.sh --Light</command>
-					</action>
-				</item>
-			</menu>
 			<separator/>
 			<item label="Cambiar fondo">
 				<action name="Execute">

@@ -1,0 +1,25 @@
+:root {
+    --moonlight-gray-10: #c8d3f5;
+    --moonlight-gray-9: #b4c2f0;
+    --moonlight-gray-8: #a9b8e8;
+    --moonlight-gray-7: #aaaf;
+    --moonlight-gray-6: #444a73;
+    --moonlight-gray-5: #eeeeee;
+    --moonlight-gray-4: #1f1f1f;
+    --moonlight-gray-3: #1e2030;
+    --moonlight-gray-1: #1F1F1F;
+    --scrollbar-chrome-size: 6px;
+    
+    
+    --blue: #50c4fa;
+    --red: #8787FF; 
+    --dark-red:#875FFF;
+    --yellow: #ffc777;
+
+    --pure-white: #fff;
+    --white: #fafafa;
+    --light-gray: #a0a0a0;
+    --middle-gray: #4a4a4a;
+    --dark-gray: #2f2f2f;
+    --black: #1f1f1f;
+}

@@ -1,19 +1,20 @@
 " PLUGINS
 call plug#begin('~/.vim/plugged')
-  Plug 'junegunn/vim-easy-align'
-  Plug 'tpope/vim-markdown'
-  Plug 'tpope/vim-surround'
-  Plug 'vim-airline/vim-airline'
-  Plug 'vim-airline/vim-airline-themes'
-  Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
-  Plug 'terryma/vim-multiple-cursors'
+    Plug 'junegunn/vim-easy-align'
+    Plug 'tpope/vim-markdown'
+    Plug 'tpope/vim-surround'
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+    Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
+    Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 " CONFIG
 noh
 syntax on
 set autoindent
 set termguicolors
-
+set updatetime=300
+set shortmess+=c
 set nocompatible
 set showcmd
 set ruler
@@ -121,3 +122,5 @@ let g:Hexokinase_optInPatterns = [
 
 let g:airline_theme = 'violet'
 let g:airline_powerline_fonts = 1
+
+

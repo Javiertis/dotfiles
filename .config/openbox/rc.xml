@@ -9,8 +9,8 @@
     <followMouse>no</followMouse>
     <focusLast>yes</focusLast>
     <underMouse>no</underMouse>
-    <focusDelay>200</focusDelay>
-    <raiseOnFocus>yes</raiseOnFocus>
+    <focusDelay>300</focusDelay>
+    <raiseOnFocus>no</raiseOnFocus>
   </focus>
   <placement>
     <policy>Smart</policy>
@@ -20,7 +20,7 @@
   </placement>
   <theme>
     <name>minarch_mod</name>
-    <titleLayout>NLMC</titleLayout>
+    <titleLayout>LMC</titleLayout>
     <keepBorder>no</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
@@ -70,7 +70,7 @@
       <name>4</name>
       <name>5</name>
     </names>
-    <popupTime>0</popupTime>
+    <popupTime>500</popupTime>
   </desktops>
   <resize>
     <drawContents>yes</drawContents>
@@ -88,7 +88,7 @@
     <right>9</right>
   </margins>
   <dock>
-    <position>BottomRight</position>
+    <position>Left</position>
     <floatingX>12</floatingX>
     <floatingY>18</floatingY>
     <noStrut>yes</noStrut>
@@ -532,7 +532,7 @@
         <x>-0</x>
         <y>-0</y>
         <width>50%</width>
-        <height>50%</height>
+        <height>50%+1</height>
       </action>
     </keybind>
     <keybind key="W-KP_4">
@@ -841,10 +841,13 @@
     <middle>no</middle>
     <submenuShowDelay>100</submenuShowDelay>
     <submenuHideDelay>200</submenuHideDelay>
-    <applicationIcons>no</applicationIcons>
+    <applicationIcons>yes</applicationIcons>
     <manageDesktops>yes</manageDesktops>
   </menu>
   <applications>
+    <application name="*">
+      <decor>no</decor> 
+    </application>
     <application name="oblogout">
       <position force="no">
         <monitor>1</monitor>
@@ -867,6 +870,10 @@
     </application>
     <application name="spotify*">
       <desktop>5</desktop>
+    </application>
+    <application title="Mozilla Firefox">
+      <desktop>2</desktop>
+      <focus>yes</focus>
     </application>
     <!--
 
@@ -904,7 +911,7 @@
     # enable or disable window decorations
 
     <shade>no</shade>
-    # make the window shaded when it appears, or not
+    # make the window shSsSed when it appears, or not
 
     <position force="no">
       # the position is only used if both an x and y coordinate are provided
